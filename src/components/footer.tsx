@@ -1,0 +1,75 @@
+import '../styles/footer.css';
+import { IoIosSend } from "react-icons/io";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from 'react-icons/fa';
+import Button from 'react-bootstrap/Button';
+
+export const Footer = () => {
+    return (
+        <div className="d-flex flex-column h-100">
+
+    <section className="hero text-muted py-5 flex-grow-1">
+        <div className="container py-4">
+            <div className="row">
+                <div className="col-lg-6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer className="w-100 py-4 flex-shrink-0">
+        <div className="container py-4">
+            <div className="row gy-4 gx-5">
+                <div className="col-lg-4 col-md-6">
+                    <h5 className="h1 text-dark">Chenara Dodge</h5>
+                    <p className="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <span style={{marginRight: '10px', color: 'muted'}}><FaWhatsapp size={25} data-bs-toggle="tooltip" data-bs-placement="top" title="Whatsapp"/></span>
+                    <span style={{marginRight: '10px', color: 'muted'}}><FaFacebook size={25} data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"/></span>
+                    <span style={{marginRight: '10px', color: 'muted'}}><FaInstagram size={25}data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"/></span>
+                    <span style={{marginRight: '10px', color: 'muted'}}><FaTwitter size={25} data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"/></span>
+
+
+                </div>
+                <div className="col-lg-2 col-md-6">
+                    <h5 className="text-muted mb-3">Quick links</h5>
+                    <ul className="list-unstyled text-muted">
+                        <li><a href="#" style={{textDecoration: 'none'}}>Home</a></li>
+                        <li><a href="#" style={{textDecoration: 'none'}}>About</a></li>
+                        <li><a href="#" style={{textDecoration: 'none'}}>Get started</a></li>
+                        <li><a href="#" style={{textDecoration: 'none'}}>FAQ</a></li>
+                    </ul>
+                </div>
+                <div className="col-lg-2 col-md-6">
+                    <h5 className="text-muted mb-3">Quick links</h5>
+                    <ul className="list-unstyled text-muted">
+                        <li><a href="#" style={{textDecoration: 'none'}}>New-In</a></li>
+                        <li><a href="#" style={{textDecoration: 'none'}}>Shop Now</a></li>
+                        <li><a href="#" style={{textDecoration: 'none'}}>Cart</a></li>
+                        <li><a href="#" style={{textDecoration: 'none'}}>Favourites</a></li>
+                    </ul>
+                </div>
+                <div className="col-lg-4 col-md-6">
+                    <h5 className="text-muted mb-3">Newsletter</h5>
+                    <p className="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <form action="#">
+                        <div className="input-group mb-3">
+                            <input className="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                            <Button variant="outline-success" id="button-addon2"><IoIosSend data-bs-toggle="tooltip" data-bs-placement="top" title="Send"/></Button>
+
+                        </div>
+                    </form>
+                </div>
+                <hr style={{ color: 'muted'}}/>
+                <div  style={{ alignContent: 'center', textAlign: 'center'}}>
+                    <p className="small text-muted mb-0">&copy; 2023 Chenara DODGE. All rights reserved.</p>
+                    <p className='small text-muted mb-0'>Powered by XXX</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+    )
+}
