@@ -1,9 +1,12 @@
 import React from 'react';
 import { ProductCard } from '../components/productCard';
+import { TitleText } from '../components/titleText';
 
 export const SkirtsComponent = () => {
     return (
         <div className='container' style={{ marginBottom: '50px'}}>
+                                    <TitleText title="skirts"/>
+
             <span style={{ display: 'block'}}>
 
             <div style={{ display: 'inline-block', marginRight: '20px' }}>
