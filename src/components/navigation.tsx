@@ -10,8 +10,13 @@ import { TbTruckDelivery } from "react-icons/tb";
 import { BiSolidUserCircle } from "react-icons/bi";
 import { BiSearchAlt } from "react-icons/bi";
 import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+
 
 export const Navigation = () => {
+
+
+
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container fluid>
@@ -23,23 +28,23 @@ export const Navigation = () => {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link href="#action1">Home</Nav.Link>
-                        <Nav.Link href="#action2">New-In</Nav.Link>
+                        <Nav.Link as={Link} to="/">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/">New-In</Nav.Link>
                         <NavDropdown title="Shop Now" id="navbarScrollingDropdown">
                         <NavDropdown.Item as={Link} to="/tops">Tops</NavDropdown.Item>
-                            <NavDropdown.Item href="#action4">Pants</NavDropdown.Item>
-                            <NavDropdown.Item href="#action5">Skirts</NavDropdown.Item>
-                            <NavDropdown.Item href="/frocks">Frocks</NavDropdown.Item>
-                            <NavDropdown.Item href="#action7">Rompers</NavDropdown.Item>
-                            <NavDropdown.Item href="#action8">Jumpsuits</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/pants">Pants</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/skirts">Skirts</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/frocks">Frocks</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/two-piece-sets">Two Piece Sets</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/jumpsuits">Jumpsuits</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action9">Fashion Accessories</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/fashion-accessories">Fashion Accessories</NavDropdown.Item>
                         </NavDropdown>
 
                     </Nav>
 
 
-                    <Form className="d-flex">
+                    <Form className="d-flex" >
                         <Nav
                             className="me-auto"
                             navbarScroll
@@ -57,7 +62,7 @@ export const Navigation = () => {
                             className="me-2"
                             aria-label="Search"
                         />
-                        <Button variant="outline-success"><BiSearchAlt /></Button>
+                        <Button variant="outline-success" ><BiSearchAlt /></Button>
                     </Form>
                 </Navbar.Collapse>
             </Container>

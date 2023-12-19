@@ -1,14 +1,14 @@
 import React from 'react';
 import { ProductCard } from '../components/productCard';
 
-export const TopsComponent = () => {
+export const PantsComponent = () => {
     return (
         <div className='container' style={{ marginBottom: '50px'}}>
             <span style={{ display: 'block'}}>
 
             <div style={{ display: 'inline-block', marginRight: '20px' }}>
                 <ProductCard
-                    imageUrl='https://media.istockphoto.com/id/1321444254/photo/young-woman-with-arms-raised-standing-against-sky.jpg?s=612x612&w=0&k=20&c=HPTxugxvKZXL9HZbAoQRQzaBu-lmxzAPuCJGtvgIMb0='
+                    imageUrl='https://images.pexels.com/photos/5004025/pexels-photo-5004025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                     title="First Product"
                     content="Description of the second product."
                     navigate="Go to another place"
@@ -16,7 +16,7 @@ export const TopsComponent = () => {
             </div>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl="https://images.pexels.com/photos/9558764/pexels-photo-9558764.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                    imageUrl="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
                     title="Second Product"
                     content="Description of the second product."
                     navigate="Go to another place"
@@ -24,7 +24,7 @@ export const TopsComponent = () => {
             </div>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://images.pexels.com/photos/8285758/pexels-photo-8285758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+                    imageUrl='https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D'
                     title="Third Product"
                     content="Description of the second product."
                     navigate="Go to another place"
@@ -32,7 +32,7 @@ export const TopsComponent = () => {
             </div>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://images.pexels.com/photos/9558787/pexels-photo-9558787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+                    imageUrl='https://images.pexels.com/photos/7203477/pexels-photo-7203477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                     title="fourth Product"
                     content="Description of the second product."
                     navigate="Go to another place"
@@ -42,7 +42,7 @@ export const TopsComponent = () => {
             <span style={{ display: 'block', marginTop: '200px'}}>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://images.pexels.com/photos/8053691/pexels-photo-8053691.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'
+                    imageUrl='https://images.unsplash.com/photo-1584370848036-d63286d83fa4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D'
                     title="Fifth Product"
                     content="Description of the second product."
                     navigate="Go to another place"
@@ -50,7 +50,7 @@ export const TopsComponent = () => {
             </div>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://images.pexels.com/photos/7716930/pexels-photo-7716930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+                    imageUrl='https://images.unsplash.com/photo-1551854838-212c50b4c184?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8'
                     title="Sixth Product"
                     content="Description of the second product."
                     navigate="Go to another place"
@@ -58,7 +58,7 @@ export const TopsComponent = () => {
             </div>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://images.pexels.com/photos/9558588/pexels-photo-9558588.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'
+                    imageUrl='https://images.unsplash.com/photo-1519211777646-3a7ccf759b64?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                     title="Seventh Product"
                     content="Description of the second product."
                     navigate="Go to another place"
@@ -66,7 +66,7 @@ export const TopsComponent = () => {
             </div>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://images.pexels.com/photos/9558777/pexels-photo-9558777.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'
+                    imageUrl='https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8'
                     title="Eighth Product"
                     content="Description of the second product."
                     navigate="Go to another place"
@@ -76,7 +76,7 @@ export const TopsComponent = () => {
             <span style={{ display: 'block', marginTop: '200px'}}>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://images.pexels.com/photos/6311612/pexels-photo-6311612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+                    imageUrl='https://images.unsplash.com/photo-1602583459551-c0e623f7af36?q=80&w=1882&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                     title="Nineth Product"
                     content="Description of the second product."
                     navigate="Go to another place"
@@ -84,28 +84,13 @@ export const TopsComponent = () => {
             </div>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://media.istockphoto.com/id/1190574247/photo/dreamlike-beautiful-young-woman-wearing-peach-pink-vintage-blouse-and-skirt-studio-shot.jpg?s=612x612&w=0&k=20&c=FCM0LXSU4sjO81ATsC2fPXp6B9aAxD2C3zLBUjtn_rE='
+                    imageUrl='https://images.unsplash.com/photo-1589465885857-44edb59bbff2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                     title="Tenth Product"
                     content="Description of the second product."
                     navigate="Go to another place"
                 />
             </div>
-            <div style={{ display: 'inline-block', marginRight: '10px' }}>
-                <ProductCard
-                    imageUrl='https://images.pexels.com/photos/11827462/pexels-photo-11827462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-                    title="Elevanth Product"
-                    content="Description of the second product."
-                    navigate="Go to another place"
-                />
-            </div>
-            <div style={{ display: 'inline-block', marginRight: '10px' }}>
-                <ProductCard
-                    imageUrl='https://images.pexels.com/photos/6774356/pexels-photo-6774356.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'
-                    title="Twelveth Product"
-                    content="Description of the second product."
-                    navigate="Go to another place"
-                />
-            </div>
+
             </span>
 
 
