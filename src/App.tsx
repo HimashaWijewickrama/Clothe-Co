@@ -9,15 +9,16 @@ import { SkirtsComponent } from './main/skirts';
 import { JumpsuitsComponent } from './main/jumpsuits';
 import { TwoPiecesComponent } from './main/twopieces';
 import { AccessoriesComponent } from './main/accessories';
-import { NewInComponent } from './main/newin';
+import { GiveAway } from './main/giveaway';
 
 function App() {
   return (
     <BrowserRouter>
+    <GiveAway/>
     <Navigation/>
 		<Routes>
     <Route path="/" element={<Home />} />
-    <Route path="/" element={<NewInComponent/>}/>
+
 
       <Route path="/frocks" element={<FrocksComponent />} />
       <Route path="/tops" element={<TopsComponent />} />
@@ -30,7 +31,7 @@ function App() {
 
 
 		</Routes>
-
+    
     <Footer/>
 	</BrowserRouter>
 

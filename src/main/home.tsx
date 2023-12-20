@@ -2,6 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { TitleText } from '../components/titleText';
+import { NewInComponent } from './newin';
 export const Home = () => {
 
 
@@ -17,26 +18,29 @@ export const Home = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="10000">
-      <img src="https://images.unsplash.com/photo-1519415943484-9fa1873496d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" alt="hello" style={{height: '650px', objectFit: 'cover'}}/>
+            <img src="https://images.unsplash.com/photo-1544967919-44c1ef2f9e7a?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" alt="hello" style={{height: '650px', objectFit: 'cover'}}/>
+
+    
+      {/* <img src="https://images.unsplash.com/photo-1519415943484-9fa1873496d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" alt="hello" style={{height: '650px', objectFit: 'cover'}}/> */}
       <div className="carousel-caption d-none d-md-block">
 
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="2000">
-      <img src="https://images.unsplash.com/photo-1502920924215-5646fe685bef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" alt="hellobe" style={{height: '650px', objectFit: 'cover'}}/>
+      <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" alt="hellobe" style={{height: '650px', objectFit: 'cover'}}/>
       <div className="carousel-caption d-none d-md-block">
 
       </div>
     </div>
     <div className="carousel-item">
-    {/* <img src="https://images.unsplash.com/photo-1510284876186-b1a84b94418f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" alt="hellocc"/> */}
+    {/* <img src="" className="d-block w-100" alt="hellocc"/> */}
 
-    <img src="https://images.unsplash.com/photo-1594913615943-8cdf6d076b7a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" alt="hellocc" style={{height: '650px', objectFit: 'cover'}}/>
+    <img src="https://images.unsplash.com/photo-1588680387706-913dc9c51036?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" alt="hellocc" style={{height: '650px', objectFit: 'cover'}}/>
     
-    {/* <img src="https://images.unsplash.com/photo-1618183876181-3df5b83e7be9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" alt="hellocc"/> */}
-    {/* <img src="https://images.unsplash.com/photo-1559563458-527698bf5295?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" alt="hellocc"/> */}
-    {/* <img src="https://images.unsplash.com/photo-1523754182607-2ff5903ec1e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" alt="hellocc"/> */}
-      {/* <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100" alt="hellocc"/> */}
+    {/* <img src="" className="d-block w-100" alt="hellocc"/> */}
+    {/* <img src="" className="d-block w-100" alt="hellocc"/> */}
+    {/* <img src="" className="d-block w-100" alt="hellocc"/> */}
+      {/* <img src="" className="d-block w-100" alt="hellocc"/> */}
       <div className="carousel-caption d-none d-md-block">
 
       </div>
@@ -53,7 +57,7 @@ export const Home = () => {
 
 </div>
 <TitleText title='new in'/>
-
+<NewInComponent/>
 </div>
     )
   }

@@ -3,109 +3,111 @@ import { ProductCard } from '../components/productCard';
 
 export const NewInComponent = () => {
     return (
-        <div className='container' style={{ marginBottom: '50px'}}>
-            <span style={{ display: 'block'}}>
+        <div className='container' style={{ marginBottom: '50px' }}>
+            <span style={{ display: 'block' }}>
 
-            <div style={{ display: 'inline-block', marginRight: '20px' }}>
+                <div style={{ display: 'inline-block', marginRight: '20px' }}>
                 <ProductCard
-                    imageUrl='https://media.istockphoto.com/id/1249944450/photo/women-skirt.jpg?s=612x612&w=0&k=20&c=W62ntdmUKTb2kqD2EnEFDPIij-CwhaeaMSDiE8fD_Mw='
-                    title="First Product"
-                    content="Description of the second product."
-                    navigate="Go to another place"
-                />
-            </div>
-            <div style={{ display: 'inline-block', marginRight: '10px' }}>
-                <ProductCard
-                    imageUrl="https://images.unsplash.com/photo-1594633313515-7ad9334a2349?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D"
+                    imageUrl="https://images.pexels.com/photos/9558764/pexels-photo-9558764.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                     title="Second Product"
                     content="Description of the second product."
                     navigate="Go to another place"
                 />
-            </div>
-            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                </div>
+                <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                    <ProductCard
+                        imageUrl='https://images.unsplash.com/photo-1654806389957-f8ca19bb7b1a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                        title="Eighth Product"
+                        content="Description of the second product."
+                        navigate="Go to another place"
+                    />
+                </div>
+                <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://images.pexels.com/photos/9768446/pexels-photo-9768446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-                    title="Third Product"
-                    content="Description of the second product."
-                    navigate="Go to another place"
-                />
-            </div>
-            <div style={{ display: 'inline-block', marginRight: '10px' }}>
-                <ProductCard
-                    imageUrl='https://images.pexels.com/photos/4663319/pexels-photo-4663319.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'
+                    imageUrl='https://images.pexels.com/photos/7203477/pexels-photo-7203477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                     title="fourth Product"
                     content="Description of the second product."
                     navigate="Go to another place"
                 />
-            </div>
+                </div>
+                <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                <ProductCard
+                    imageUrl='https://rukminim2.flixcart.com/image/850/1250/xif0q/jean/1/e/6/28-mid-blue-skg-original-imagzf9hzv8thead.jpeg?q=20'
+                    title="fourth Product"
+                    content="Description of the second product."
+                    navigate="Go to another place"
+                />
+                </div>
             </span>
-            <span style={{ display: 'block', marginTop: '200px'}}>
-            <div style={{ display: 'inline-block', marginRight: '10px' }}>
-                <ProductCard
-                    imageUrl='https://images.pexels.com/photos/14913695/pexels-photo-14913695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-                    title="Fifth Product"
-                    content="Description of the second product."
-                    navigate="Go to another place"
-                />
-            </div>
-            <div style={{ display: 'inline-block', marginRight: '10px' }}>
-                <ProductCard
-                    imageUrl='https://images.pexels.com/photos/15486310/pexels-photo-15486310/free-photo-of-woman-walking-barefoot.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-                    title="Sixth Product"
-                    content="Description of the second product."
-                    navigate="Go to another place"
-                />
-            </div>
-            <div style={{ display: 'inline-block', marginRight: '10px' }}>
-                <ProductCard
-                    imageUrl='https://images.pexels.com/photos/7879787/pexels-photo-7879787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-                    title="Seventh Product"
-                    content="Description of the second product."
-                    navigate="Go to another place"
-                />
-            </div>
-            <div style={{ display: 'inline-block', marginRight: '10px' }}>
-                <ProductCard
-                    imageUrl='https://media.istockphoto.com/id/1426465371/photo/serie-of-studio-photos-of-attractive-young-female-model-wearing-black-blouse-and-leopard.jpg?s=612x612&w=0&k=20&c=ZXUjP-28hYQTTG0MGuXEVbRTsBPegY6AZsyn0AOstmw='
-                    title="Eighth Product"
-                    content="Description of the second product."
-                    navigate="Go to another place"
-                />
-            </div>
+            <span style={{ display: 'block', marginTop: '200px' }}>
+                <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                    <ProductCard
+                        imageUrl='https://media.istockphoto.com/id/1318502517/photo/beautiful-woman-in-evening-suit-front-of-white-background.jpg?s=612x612&w=0&k=20&c=nvXKD7Oh8-wv0LMkmUykFqIwQ0JSqTXoHq0Jft8_T2g='
+                        title="fourth Product"
+                        content="Description of the second product."
+                        navigate="Go to another place"
+                    />
+                </div>
+                <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                    <ProductCard
+                        imageUrl='https://images.unsplash.com/photo-1564139615082-01535600057f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3xCWm9vd3pCOFI4MHx8ZW58MHx8fHx8'
+
+                        title="Third Product"
+                        content="Description of the second product."
+                        navigate="Go to another place"
+                    />
+                </div>
+                <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                    <ProductCard
+                        imageUrl='https://images.unsplash.com/photo-1610113233329-1c73b6f7fe98?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8'
+                        title="Eighth Product"
+                        content="Description of the second product."
+                        navigate="Go to another place"
+                    />
+                </div>
+                <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                    <ProductCard
+                        imageUrl='https://images.unsplash.com/photo-1602231379593-b85a472e3c99?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                        title="Nineth Product"
+                        content="Description of the second product."
+                        navigate="Go to another place"
+                    />
+                </div>
             </span>
-            <span style={{ display: 'block', marginTop: '200px'}}>
-            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+            <span style={{ display: 'block', marginTop: '200px' }}>
+                <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                    <ProductCard
+                        imageUrl='https://images.unsplash.com/photo-1630081757603-a46d414be089?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                        title="Nineth Product"
+                        content="Description of the second product."
+                        navigate="Go to another place"
+                    />
+                </div>
+                <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                    <ProductCard
+                        imageUrl='https://images.unsplash.com/photo-1583703779199-e6ed378df595?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzN8NDUzMTY3OHx8ZW58MHx8fHx8'
+                        title="Nineth Product"
+                        content="Description of the second product."
+                        navigate="Go to another place"
+                    />
+                </div>
+                <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                    <ProductCard
+                        imageUrl='https://images.unsplash.com/photo-1591370409347-2fd43b7842de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxODA0MjI1Mnx8ZW58MHx8fHx8'
+                        title="Nineth Product"
+                        content="Description of the second product."
+                        navigate="Go to another place"
+                    />
+                </div>
+                <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://media.istockphoto.com/id/1426465015/photo/serie-of-studio-photos-of-attractive-young-female-model-wearing-elegant-white-silk-satin.jpg?s=612x612&w=0&k=20&c=pxXcXc-KU0Y6bL11wscJPS_xnFDqKy4qkZChWOiLwEI='
-                    title="Nineth Product"
+                    imageUrl='https://images.unsplash.com/photo-1601244005535-a48d21d951ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8'
+                    title="fourth Product"
                     content="Description of the second product."
                     navigate="Go to another place"
                 />
-            </div>
-            <div style={{ display: 'inline-block', marginRight: '10px' }}>
-                <ProductCard
-                    imageUrl='https://media.istockphoto.com/id/1249944480/photo/women-skirt.jpg?s=612x612&w=0&k=20&c=dd3C7Z-tSQh81Nkl0FgdSJAZ5-zplxXNfcvuWNukxVM='
-                    title="Tenth Product"
-                    content="Description of the second product."
-                    navigate="Go to another place"
-                />
-            </div>
-            <div style={{ display: 'inline-block', marginRight: '10px' }}>
-                <ProductCard
-                    imageUrl='https://media.istockphoto.com/id/1426466124/photo/serie-of-studio-photos-of-attractive-young-female-model-wearing-black-blouse-and-geometric.jpg?s=612x612&w=0&k=20&c=f5jTt9YJCGKCxQqGc2aXTE6JveOH5pCOVUJit8YKe5s='
-                    title="Elevanth Product"
-                    content="Description of the second product."
-                    navigate="Go to another place"
-                />
-            </div>
-            <div style={{ display: 'inline-block', marginRight: '10px' }}>
-                <ProductCard
-                    imageUrl='https://media.istockphoto.com/id/1225543198/photo/women-skirt.jpg?s=612x612&w=0&k=20&c=MP9wlpoIivwaj3Iumski-yyGIXjFx3DFSWNqU4mcLlc='
-                    title="Twelveth Product"
-                    content="Description of the second product."
-                    navigate="Go to another place"
-                />
-            </div>
+                </div>
+
             </span>
 
 

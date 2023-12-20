@@ -11,7 +11,7 @@ export const PantsComponent = () => {
 
             <div style={{ display: 'inline-block', marginRight: '20px' }}>
                 <ProductCard
-                    imageUrl='https://images.pexels.com/photos/5004025/pexels-photo-5004025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+                    imageUrl='https://imagescdn.planetfashion.in/img/app/product/7/739143-8269861.jpg'
                     title="First Product"
                     content="Description of the second product."
                     navigate="Go to another place"
@@ -45,7 +45,7 @@ export const PantsComponent = () => {
             <span style={{ display: 'block', marginTop: '200px'}}>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://images.unsplash.com/photo-1584370848036-d63286d83fa4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D'
+                    imageUrl='https://sslimages.shoppersstop.com/sys-master/images/h29/hbb/29441780383774/FLWASCRGF294882_LIGHT_GREY.jpg_136Wx204H'
                     title="Fifth Product"
                     content="Description of the second product."
                     navigate="Go to another place"
@@ -87,7 +87,23 @@ export const PantsComponent = () => {
             </div>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://images.unsplash.com/photo-1589465885857-44edb59bbff2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                    imageUrl='https://4.imimg.com/data4/MI/DF/MY-1863278/ladies-formal-trouser.jpg'
+                    title="Tenth Product"
+                    content="Description of the second product."
+                    navigate="Go to another place"
+                />
+            </div>
+            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                <ProductCard
+                    imageUrl='https://mypamperedlifeseattle.com/cdn/shop/files/18720300_5462b370-7dbb-4004-b626-5dc635aee7ec.jpg?v=1691043970&width=533'
+                    title="Tenth Product"
+                    content="Description of the second product."
+                    navigate="Go to another place"
+                />
+            </div>
+            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                <ProductCard
+                    imageUrl='https://rukminim2.flixcart.com/image/850/1250/xif0q/jean/1/e/6/28-mid-blue-skg-original-imagzf9hzv8thead.jpeg?q=20'
                     title="Tenth Product"
                     content="Description of the second product."
                     navigate="Go to another place"

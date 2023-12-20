@@ -368,7 +368,43 @@ export const AccessoriesComponent = () => {
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
+                                    imageUrl='https://images.unsplash.com/photo-1656944227480-98180d2a5155?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                                    title="Nineth Product"
+                                    content="Description of the second product."
+                                    navigate="Go to another place"
+                                />
+                            </div>
+
+                        </span>
+                        <span style={{ display: 'block', marginTop: '200px' }}>
+                            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                                <ProductCard
+                                    imageUrl='https://images.unsplash.com/photo-1602231379593-b85a472e3c99?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                                    title="Nineth Product"
+                                    content="Description of the second product."
+                                    navigate="Go to another place"
+                                />
+                            </div>
+                            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                                <ProductCard
+                                    imageUrl='https://images.unsplash.com/photo-1620138546344-7b2c38516edf?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                                    title="Nineth Product"
+                                    content="Description of the second product."
+                                    navigate="Go to another place"
+                                />
+                            </div>
+                            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                            
+                                <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1610398752800-146f269dfcc8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                                    title="Nineth Product"
+                                    content="Description of the second product."
+                                    navigate="Go to another place"
+                                />
+                            </div>
+                            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                                <ProductCard
+                                    imageUrl='https://images.unsplash.com/photo-1462117580841-44df9d9d23fd?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
                                     navigate="Go to another place"
@@ -377,6 +413,37 @@ export const AccessoriesComponent = () => {
 
                         </span>
 
+                    </div>
+                </div>
+                <div className="accordion-item">
+                    <h2 className="accordion-header" id="flush-headingTen">
+                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                            Scarfs
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTen" className="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '200px' }}>
+
+
+                        <span style={{ display: 'block', marginTop: '30px' }}>
+                            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                                <ProductCard
+                                    imageUrl='https://images.unsplash.com/photo-1601244005535-a48d21d951ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8'
+                                    title="Nineth Product"
+                                    content="Description of the second product."
+                                    navigate="Go to another place"
+                                />
+                            </div>
+                            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                                <ProductCard
+                                    imageUrl='https://images.unsplash.com/photo-1602095319680-edfc5b44cf5e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                                    title="Nineth Product"
+                                    content="Description of the second product."
+                                    navigate="Go to another place"
+                                />
+                            </div>
+                            
+                        </span>
+                        
                     </div>
                 </div>
             </div>

@@ -87,6 +87,30 @@ export const JumpsuitsComponent = () => {
                     navigate="Go to another place"
                 />
             </div>
+            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                <ProductCard
+                    imageUrl='https://images.unsplash.com/photo-1583464292774-867db8653726?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                    title="Nineth Product"
+                    content="Description of the second product."
+                    navigate="Go to another place"
+                />
+            </div>
+            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                <ProductCard
+                    imageUrl='https://i.ebayimg.com/images/g/SfAAAOSwhQJkBc9q/s-l1200.webp'
+                    title="Nineth Product"
+                    content="Description of the second product."
+                    navigate="Go to another place"
+                />
+            </div>
+            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                <ProductCard
+                    imageUrl='https://images.unsplash.com/photo-1545291730-faff8ca1d4b0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                    title="Nineth Product"
+                    content="Description of the second product."
+                    navigate="Go to another place"
+                />
+            </div>
 
             </span>
 

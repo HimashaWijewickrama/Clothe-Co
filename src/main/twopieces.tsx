@@ -26,7 +26,7 @@ export const TwoPiecesComponent = () => {
             </div>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://images.unsplash.com/photo-1691154928997-5d839847e4e7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                    imageUrl='https://www.rosedress.com/cdn/shop/products/high-waist-rib-long-sleeve-winter-sweater-two-piece-dress-White-1_600x.jpg?v=1604318868'
                     title="Third Product"
                     content="Description of the second product."
                     navigate="Go to another place"
@@ -44,7 +44,7 @@ export const TwoPiecesComponent = () => {
             <span style={{ display: 'block', marginTop: '200px'}}>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://images.pexels.com/photos/7203488/pexels-photo-7203488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+                    imageUrl='https://www.smilepromdresses.co/cdn/shop/products/Scoop_Neck_Long_Sleeve_Tulle_Wedding_Dress_With_Lace_Bodice_V_Back_Wedding_Gowns_PW512_grande.jpg?v=1574491763'
                     title="Fifth Product"
                     content="Description of the second product."
                     navigate="Go to another place"
@@ -52,7 +52,7 @@ export const TwoPiecesComponent = () => {
             </div>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://media.istockphoto.com/id/1041662604/photo/full-length-view-of-beautiful-fashionable-woman-posing-and-looking-at-camera-on-grey.jpg?s=612x612&w=0&k=20&c=hvdYKJSkVGeYmzX-gTn9GpyhKKuiKJRR0rh5VGk3gJo='
+                    imageUrl='https://cdn.shopify.com/s/files/1/1851/2511/products/Luis_Civit.jpg'
                     title="Sixth Product"
                     content="Description of the second product."
                     navigate="Go to another place"
@@ -60,7 +60,15 @@ export const TwoPiecesComponent = () => {
             </div>
             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                 <ProductCard
-                    imageUrl='https://images.pexels.com/photos/10547922/pexels-photo-10547922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+                    imageUrl='https://www.na-kd.com/globalassets/nakd_drawstring_cut_out_dress_1100-003831-0005_01c.jpg?ref=AAE9AF9536'
+                    title="Seventh Product"
+                    content="Description of the second product."
+                    navigate="Go to another place"
+                />
+            </div>
+            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                <ProductCard
+                    imageUrl='https://images.unsplash.com/photo-1654806389957-f8ca19bb7b1a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                     title="Seventh Product"
                     content="Description of the second product."
                     navigate="Go to another place"
