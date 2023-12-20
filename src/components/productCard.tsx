@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge';
 import { IoEye, IoHeart, IoCart } from "react-icons/io5";
-
+import AlertDelete from './alertDelete';
 interface ProductCardProps {
   imageUrl: string;
   title: string;
@@ -14,9 +14,15 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
   const [isLiked, setIsLiked] = useState(false);
   const [isView, setIsView] = useState(false);
   const [isAdded, setIsAdded] = useState(false);
+  const [showAlert, setShowAlert] = useState(false);
+
+  const handleAlertClose = () => {
+    setShowAlert(false);
+};
 
   const handleLikeClick = () => {
     setIsLiked(!isLiked);
+    setShowAlert(true);
   };
 
   const handleViewClick = () => {
@@ -30,7 +36,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
   return (
     <Card style={{ position: 'relative', width: '18rem', margin: '10px', height: '25rem' }}>
       {badgeText && (
-        <Badge bg="success" style={{ position: 'absolute', top: '0px', right: '0px', color: 'dark' }}>
+        <Badge bg="success" style={{ position: 'absolute', top: '0px', right: '0px', fontSize: '15px' }}>
           {badgeText}
         </Badge>
       )}
@@ -59,6 +65,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
           />
         </span>
       </Card.Body>
+      {showAlert && (
+      <AlertDelete title="added to favourites" open={showAlert}  handleClose={handleAlertClose}/>
+      )}
     </Card>
   );
 };
