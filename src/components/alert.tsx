@@ -18,7 +18,7 @@ export const Alert: React.FC<AlertProps> = ({ content }) => {
     }
 
     return (
-        <div className="alert alert-danger alert-dismissible fade show" role="alert" style={{textAlign: 'center'}}>
+        <div className="alert alert-danger alert-dismissible fade show" role="alert" style={{textAlign: 'center', marginBottom: '0px'}}>
             <div style={{ display: 'inline-block'}}>
             <CiGift size={45}/></div>
             <div style={{ display: 'inline-block'}}>

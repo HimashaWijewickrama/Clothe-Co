@@ -24,7 +24,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1591561954557-26941169b49e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="First Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -33,7 +32,6 @@ export const AccessoriesComponent = () => {
 
                                     title="Second Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -42,7 +40,6 @@ export const AccessoriesComponent = () => {
 
                                     title="Third Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -50,7 +47,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1585488433867-8eb24f59723c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8Qlpvb3d6QjhSODB8fGVufDB8fHx8fA%3D%3D'
                                     title="fourth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                         </span>
@@ -70,7 +66,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1582211594533-268f4f1edcb9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Fifth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -78,7 +73,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1561997835-49889d0e0355?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D'
                                     title="Sixth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -86,7 +80,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1588482587611-692b19ee797b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D'
                                     title="Seventh Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -94,7 +87,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1610113233329-1c73b6f7fe98?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8'
                                     title="Eighth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                         </span>
@@ -114,7 +106,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1579727027525-352607d8dc49?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -122,7 +113,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1578847857503-bed61186a57a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -130,7 +120,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1552419272-b0d8e736ea2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -138,7 +127,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1613987876445-fcb353cd8e27?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
 
@@ -159,7 +147,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1571290274554-6a2eaa771e5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -167,7 +154,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1641814250010-9887d86eedfd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -175,7 +161,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1625792508272-bc6ad2788b14?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -183,7 +168,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://plus.unsplash.com/premium_photo-1674255466849-b23fc5f5d3eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
 
@@ -205,7 +189,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1595686220657-ed59f0f14510?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -213,7 +196,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1629019581609-a1626ecfcc19?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -221,7 +203,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1672699323645-75ace776093e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -229,7 +210,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1630081757603-a46d414be089?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
 
@@ -254,7 +234,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1655693488763-bba42128fbc9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGFkaWVzJTIwd2F0Y2hlc3xlbnwwfHwwfHx8MA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -262,7 +241,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1653651461484-5c8ea009b1d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -270,7 +248,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1655693487677-683764e20c08?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -278,7 +255,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1655693489381-a7ae63269c48?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
 
@@ -300,7 +276,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1585799357162-5ef26c702aba?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -308,7 +283,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://plus.unsplash.com/premium_photo-1671149785230-bf9fc44e3829?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -316,7 +290,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1583703779199-e6ed378df595?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzN8NDUzMTY3OHx8ZW58MHx8fHx8'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -324,7 +297,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1601980265524-04468b355ac3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
 
@@ -347,7 +319,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c25lYWtlcnN8ZW58MHx8MHx8fDA%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -355,7 +326,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1656164753657-8ff832063a71?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -363,7 +333,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1591370409347-2fd43b7842de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxODA0MjI1Mnx8ZW58MHx8fHx8'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -371,7 +340,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1656944227480-98180d2a5155?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
 
@@ -382,7 +350,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1602231379593-b85a472e3c99?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -390,7 +357,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1620138546344-7b2c38516edf?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -399,7 +365,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1610398752800-146f269dfcc8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -407,7 +372,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1462117580841-44df9d9d23fd?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
 
@@ -430,7 +394,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1601244005535-a48d21d951ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -438,7 +401,6 @@ export const AccessoriesComponent = () => {
                                     imageUrl='https://images.unsplash.com/photo-1602095319680-edfc5b44cf5e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                     title="Nineth Product"
                                     content="Description of the second product."
-                                    navigate="Go to another place"
                                 />
                             </div>
                             
