@@ -10,6 +10,7 @@ import { TbTruckDelivery } from "react-icons/tb";
 import { BiSolidUserCircle } from "react-icons/bi";
 import { BiSearchAlt } from "react-icons/bi";
 import { Link } from 'react-router-dom';
+import LogoNav from '../assets/logo-nav.png';
 import React, { useEffect, useState } from 'react';
 
 
@@ -19,8 +20,9 @@ export const Navigation = () => {
 
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
-            <Container fluid>
-                <Navbar.Brand href="#" style={{ fontWeight: 600 }}>Chenara Dodge</Navbar.Brand>
+            <Container fluid style={{backgroundColor: '#F8F9FA'}}>
+            <img src={LogoNav} alt="clothe co." style={{maxHeight: '100px', maxWidth: '100px', marginRight: '10px'}} />
+                <Navbar.Brand href="#" style={{ fontWeight: 600 }}>CLOTHE CO.</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav

@@ -14,27 +14,51 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
   const [isLiked, setIsLiked] = useState(false);
   const [isView, setIsView] = useState(false);
   const [isAdded, setIsAdded] = useState(false);
-  const [showAlert, setShowAlert] = useState(false);
+  const [showFavAlert, setShowFavAlert] = useState(false);
+  const [showCartAlert, setShowCartAlert] = useState(false);
 
-  const handleAlertClose = () => {
-    setShowAlert(false);
-};
+
+  const handleAlertClose = (type: string) => {
+    if (type === 'fav') {
+      setShowFavAlert(false);
+    } else if (type === 'cart') {
+      setShowCartAlert(false);
+    }
+  };
+
+  const handleAddClick = () => {
+    setIsAdded(!isAdded);
+    if (!isAdded) {
+      setShowCartAlert(true);
+
+      // setTimeout(() => {
+      //   setShowCartAlert(false);
+      // }, 3000); // Close cart alert after 3 seconds
+    } else {
+      setShowCartAlert(false);
+    }
+
+  };
+
+
 
   const handleLikeClick = () => {
     setIsLiked(!isLiked);
-    setShowAlert(true);
+    if (!isLiked) {
+      setShowFavAlert(true);
+
+    } else {
+      setShowFavAlert(false);
+    }
   };
 
   const handleViewClick = () => {
     setIsView(!isView);
   }
 
-  const handleAddClick = () => {
-    setIsAdded(!isAdded);
-  }
 
   return (
-    <Card style={{ position: 'relative', width: '18rem', margin: '10px', height: '25rem' }}>
+    <Card style={{ position: 'relative', width: '18rem', margin: '10px', height: '25rem', border: '1px solid #F8F9FA' }}>
       {badgeText && (
         <Badge bg="success" style={{ position: 'absolute', top: '0px', right: '0px', fontSize: '15px' }}>
           {badgeText}
@@ -44,7 +68,10 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{content}</Card.Text>
-        <span style={{ display: 'inline-block', marginBottom: '10px', marginLeft: '50px' }}>
+
+      </Card.Body>
+      <Card.Footer style={{ backgroundColor: '#F8F9FA' }}>
+        <span style={{ display: 'inline-block', marginBottom: '10px', marginLeft: '60px' }}>
           <IoHeart
             data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Favourites"
             size={25}
@@ -60,14 +87,20 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
           <IoCart
             data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart"
             size={25}
-            style={{ marginRight: '15px', color: isAdded ? '#65B741' : 'inherit', cursor: 'pointer' }}
+            style={{ color: isAdded ? '#65B741' : 'inherit', cursor: 'pointer' }}
             onClick={handleAddClick}
           />
         </span>
-      </Card.Body>
-      {showAlert && (
-      <AlertDelete title="added to favourites" open={showAlert}  handleClose={handleAlertClose}/>
+      </Card.Footer>
+      {/* ... (other card content) ... */}
+      {showFavAlert ? (
+        <AlertDelete title="Added to favourites" open={showFavAlert} handleClose={() => handleAlertClose('fav')} />
+      ) : (
+        showCartAlert && (
+          <AlertDelete title="Added to your cart" open={showCartAlert} handleClose={() => handleAlertClose('cart')} />
+        )
       )}
+
     </Card>
   );
 };
