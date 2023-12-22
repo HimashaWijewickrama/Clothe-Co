@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { TitleText } from '../components/titleText';
 import { NewInComponent } from './newin';
+import { Breadcrumber } from '../components/breadCrumber';
 export const Home = () => {
 
 
@@ -57,6 +58,7 @@ export const Home = () => {
 
 </div>
 <TitleText title='new in'/>
+<Breadcrumber title1='Home' title2='New In' title3='New In'/>
 <NewInComponent/>
 </div>
     )
