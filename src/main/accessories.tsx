@@ -1,11 +1,14 @@
 import { ProductCard } from '../components/productCard';
 import { TitleText } from '../components/titleText';
+import { Breadcrumber } from '../components/breadCrumber';
 
 export const AccessoriesComponent = () => {
     return (
 
         <div className='container' style={{ marginBottom: '50px' }}>
             <TitleText title="fashion accessories" />
+            <Breadcrumber title1='shop now' title2='fashion accessories'/>
+
             <div className="accordion accordion-flush" id="accordionFlushExample">
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="flush-headingOne">
@@ -95,7 +98,7 @@ export const AccessoriesComponent = () => {
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="flush-headingThree">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                            Ladies High Heels
+                            Women's High Heels
                         </button>
                     </h2>
                     <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '200px' }}>
@@ -223,7 +226,7 @@ export const AccessoriesComponent = () => {
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="flush-headingSeven">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                            Ladies' Watches
+                        Women's Watches
                         </button>
                     </h2>
                     <div id="flush-collapseSeven" className="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '200px' }}>
@@ -307,7 +310,7 @@ export const AccessoriesComponent = () => {
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="flush-headingNine">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-                            Ladies' Sneakers, Boots
+                        Women's Sneakers, Boots
                         </button>
                     </h2>
                     <div id="flush-collapseNine" className="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '200px' }}>

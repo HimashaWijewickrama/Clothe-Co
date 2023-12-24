@@ -42,8 +42,8 @@ export const Navigation = () => {
                             <NavDropdown.Divider />
                             <NavDropdown.Item as={Link} to="/fashion-accessories">Fashion Accessories</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link as={Link} to="/">About Us</Nav.Link>
-                        <Nav.Link as={Link} to="/">Contact Us</Nav.Link>
+                        <Nav.Link as={Link} to="/about-us">About Us</Nav.Link>
+                        <Nav.Link as={Link} to="/contact-us">Contact Us</Nav.Link>
 
 
 
