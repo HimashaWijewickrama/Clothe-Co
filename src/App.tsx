@@ -9,12 +9,12 @@ import { SkirtsComponent } from './main/skirts';
 import { JumpsuitsComponent } from './main/jumpsuits';
 import { TwoPiecesComponent } from './main/twopieces';
 import { AccessoriesComponent } from './main/accessories';
-import { GiveAway } from './main/giveaway';
+import { Advertisement } from './components/advertisement';
 
 function App() {
   return (
     <BrowserRouter>
-    <GiveAway/>
+    <Advertisement/>
     <Navigation/>
 		<Routes>
     <Route path="/" element={<Home />} />

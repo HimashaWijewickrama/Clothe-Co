@@ -19,9 +19,9 @@ export const Navigation = () => {
 
 
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
-            <Container fluid style={{backgroundColor: '#F8F9FA'}}>
-            <img src={LogoNav} alt="clothe co." style={{maxHeight: '100px', maxWidth: '100px', marginRight: '10px'}} />
+        <Navbar expand="lg" className="bg-body-tertiary" style={{margin: '0px'}}>
+            <Container fluid style={{backgroundColor: '#F8F9FA', margin: '0'}}>
+            <img src={LogoNav} alt="clothe co." style={{maxHeight: '100px', maxWidth: '100px', marginRight: '10px', marginBottom: '0'}} />
                 <Navbar.Brand href="#" style={{ fontWeight: 600 }}>CLOTHE CO.</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
@@ -42,6 +42,10 @@ export const Navigation = () => {
                             <NavDropdown.Divider />
                             <NavDropdown.Item as={Link} to="/fashion-accessories">Fashion Accessories</NavDropdown.Item>
                         </NavDropdown>
+                        <Nav.Link as={Link} to="/">About Us</Nav.Link>
+                        <Nav.Link as={Link} to="/">Contact Us</Nav.Link>
+
+
 
                     </Nav>
 
