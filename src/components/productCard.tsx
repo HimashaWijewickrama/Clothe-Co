@@ -12,16 +12,13 @@ interface ProductCardProps {
   subtitleSpans?: {
     backgroundColor: string;
   }[];
-    // Add other styles as needed
+  showFooter?: boolean;
 }
 
-export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, content, badgeText, subtitleSpans }) => {
+export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, content, badgeText, subtitleSpans, showFooter = true }) => {
   const [isLiked, setIsLiked] = useState(false);
   const [isView, setIsView] = useState(false);
-  // const [isAdded, setIsAdded] = useState(false);
   const [showFavAlert, setShowFavAlert] = useState(false);
-  // const [showCartAlert, setShowCartAlert] = useState(false);
-
 
   const handleAlertClose = (type: string) => {
     if (type === 'fav') {
@@ -91,6 +88,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
         </Card.Subtitle>
 
       </Card.Body>
+      {showFooter && (
       <Card.Footer style={{ backgroundColor: '#F8F9FA' }}>
         <ItemCounter title={'add to cart'} />
 
@@ -107,14 +105,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
             style={{ marginRight: '15px', color: isView ? '#38419D' : 'inherit', cursor: 'pointer' }}
             onClick={handleViewClick}
           />
-          {/* <IoCart
-            data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart"
-            size={25}
-            style={{ color: isAdded ? '#65B741' : 'inherit', cursor: 'pointer' }}
-            onClick={handleAddClick}
-          /> */}
         </span>
       </Card.Footer>
+      )}
       {/* ... (other card content) ... */}
       {showFavAlert ? (
         <AlertDelete title="Added to favourites" open={showFavAlert} handleClose={() => handleAlertClose('fav')} />

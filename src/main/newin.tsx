@@ -2,7 +2,7 @@ import { ProductCard } from '../components/productCard';
 import { useEffect, useState } from 'react';
 import { TitleText } from '../components/titleText';
 import { Breadcrumber } from '../components/breadCrumber';
-
+import { pantsData } from '../data/pantsData';
 
 export const NewInComponent = () => {
     const [loading, setLoading] = useState(true);
@@ -41,6 +41,7 @@ export const NewInComponent = () => {
                                 title="Second Product"
                                 content="Description of the second product."
                                 badgeText="New"
+                                showFooter={false} // Set showFooter prop to false for this ProductCard
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -49,6 +50,8 @@ export const NewInComponent = () => {
                                 title="Eighth Product"
                                 content="Description of the second product."
                                 badgeText="New"
+                                showFooter={false} // Set showFooter prop to false for this ProductCard
+
 
                             />
                         </div>
@@ -58,16 +61,18 @@ export const NewInComponent = () => {
                                 title="fourth Product"
                                 content="Description of the second product."
                                 badgeText="New"
+                                showFooter={false} // Set showFooter prop to false for this ProductCard
+
 
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://rukminim2.flixcart.com/image/850/1250/xif0q/jean/1/e/6/28-mid-blue-skg-original-imagzf9hzv8thead.jpeg?q=20'
-                                title="fourth Product"
-                                content="Description of the second product."
+                                title={pantsData.price12}
+                                content={pantsData.title12}
                                 badgeText="New"
-
+                                showFooter={false} // Set showFooter prop to false for this ProductCard
                             />
                         </div>
                     </span>
@@ -78,16 +83,19 @@ export const NewInComponent = () => {
                                 title="fourth Product"
                                 content="Description of the second product."
                                 badgeText="New"
+                                showFooter={false} // Set showFooter prop to false for this ProductCard
+
 
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://images.unsplash.com/photo-1564139615082-01535600057f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3xCWm9vd3pCOFI4MHx8ZW58MHx8fHx8'
-
                                 title="Third Product"
                                 content="Description of the second product."
                                 badgeText="New"
+                                showFooter={false} // Set showFooter prop to false for this ProductCard
+
 
                             />
                         </div>
@@ -97,6 +105,8 @@ export const NewInComponent = () => {
                                 title="Eighth Product"
                                 content="Description of the second product."
                                 badgeText="New"
+                                showFooter={false} // Set showFooter prop to false for this ProductCard
+
 
                             />
                         </div>
@@ -106,6 +116,8 @@ export const NewInComponent = () => {
                                 title="Nineth Product"
                                 content="Description of the second product."
                                 badgeText="New"
+                                showFooter={false} // Set showFooter prop to false for this ProductCard
+
 
                             />
                         </div>
@@ -117,6 +129,8 @@ export const NewInComponent = () => {
                                 title="Nineth Product"
                                 content="Description of the second product."
                                 badgeText="New"
+                                showFooter={false} // Set showFooter prop to false for this ProductCard
+
 
                             />
                         </div>
@@ -126,6 +140,8 @@ export const NewInComponent = () => {
                                 title="Nineth Product"
                                 content="Description of the second product."
                                 badgeText="New"
+                                showFooter={false} // Set showFooter prop to false for this ProductCard
+
 
                             />
                         </div>
@@ -135,6 +151,8 @@ export const NewInComponent = () => {
                                 title="Nineth Product"
                                 content="Description of the second product."
                                 badgeText="New"
+                                showFooter={false} // Set showFooter prop to false for this ProductCard
+
 
                             />
                         </div>
@@ -144,6 +162,8 @@ export const NewInComponent = () => {
                                 title="fourth Product"
                                 content="Description of the second product."
                                 badgeText="New"
+                                showFooter={false} // Set showFooter prop to false for this ProductCard
+
 
                             />
                         </div>
