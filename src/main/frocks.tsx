@@ -63,7 +63,7 @@ export const FrocksComponent = () => {
                             />
                         </div>
                     </span>
-                    <span style={{ display: 'block', marginTop: '200px' }}>
+                    <span style={{ display: 'block', marginTop: '280px' }}>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://images.unsplash.com/photo-1612336307429-8a898d10e223?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
@@ -93,7 +93,7 @@ export const FrocksComponent = () => {
                             />
                         </div>
                     </span>
-                    <span style={{ display: 'block', marginTop: '200px' }}>
+                    <span style={{ display: 'block', marginTop: '280px', marginBottom: '150px' }}>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://images.unsplash.com/photo-1593105522065-9a6ecd21aeb2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'

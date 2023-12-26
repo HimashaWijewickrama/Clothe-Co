@@ -71,7 +71,7 @@ export const NewInComponent = () => {
                             />
                         </div>
                     </span>
-                    <span style={{ display: 'block', marginTop: '200px' }}>
+                    <span style={{ display: 'block', marginTop: '280px' }}>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://media.istockphoto.com/id/1318502517/photo/beautiful-woman-in-evening-suit-front-of-white-background.jpg?s=612x612&w=0&k=20&c=nvXKD7Oh8-wv0LMkmUykFqIwQ0JSqTXoHq0Jft8_T2g='
@@ -110,7 +110,7 @@ export const NewInComponent = () => {
                             />
                         </div>
                     </span>
-                    <span style={{ display: 'block', marginTop: '200px' }}>
+                    <span style={{ display: 'block', marginTop: '280px', marginBottom: '150px' }}>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://images.unsplash.com/photo-1630081757603-a46d414be089?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'

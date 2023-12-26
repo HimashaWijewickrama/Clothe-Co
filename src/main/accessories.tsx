@@ -61,7 +61,7 @@ export const AccessoriesComponent = () => {
                             Perfumes
                         </button>
                     </h2>
-                    <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '200px' }}>
+                    <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '300px' }}>
 
                         <span style={{ display: 'block', marginTop: '30px' }}>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -101,7 +101,7 @@ export const AccessoriesComponent = () => {
                             Women's High Heels
                         </button>
                     </h2>
-                    <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '200px' }}>
+                    <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '300px' }}>
 
                         <span style={{ display: 'block', marginTop: '30px' }}>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -142,7 +142,7 @@ export const AccessoriesComponent = () => {
                             Accessories
                         </button>
                     </h2>
-                    <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '200px' }}>
+                    <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '300px' }}>
 
                         <span style={{ display: 'block', marginTop: '30px' }}>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -184,7 +184,7 @@ export const AccessoriesComponent = () => {
                             Suncruchies
                         </button>
                     </h2>
-                    <div id="flush-collapseSix" className="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '200px' }}>
+                    <div id="flush-collapseSix" className="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '300px' }}>
 
                         <span style={{ display: 'block', marginTop: '30px' }}>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -229,7 +229,7 @@ export const AccessoriesComponent = () => {
                         Women's Watches
                         </button>
                     </h2>
-                    <div id="flush-collapseSeven" className="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '200px' }}>
+                    <div id="flush-collapseSeven" className="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '300px' }}>
 
                         <span style={{ display: 'block', marginTop: '30px', marginBottom: '100px' }}>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -271,7 +271,7 @@ export const AccessoriesComponent = () => {
                             Hats
                         </button>
                     </h2>
-                    <div id="flush-collapseEight" className="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '200px' }}>
+                    <div id="flush-collapseEight" className="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '300px' }}>
 
                         <span style={{ display: 'block', marginTop: '30px' }}>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -313,7 +313,7 @@ export const AccessoriesComponent = () => {
                         Women's Sneakers, Boots
                         </button>
                     </h2>
-                    <div id="flush-collapseNine" className="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '200px' }}>
+                    <div id="flush-collapseNine" className="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '300px' }}>
 
 
                         <span style={{ display: 'block', marginTop: '30px' }}>
@@ -347,7 +347,7 @@ export const AccessoriesComponent = () => {
                             </div>
 
                         </span>
-                        <span style={{ display: 'block', marginTop: '200px' }}>
+                        <span style={{ display: 'block', marginTop: '300px' }}>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1602231379593-b85a472e3c99?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'

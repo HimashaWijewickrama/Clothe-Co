@@ -62,7 +62,7 @@ export const SkirtsComponent = () => {
                             />
                         </div>
                     </span>
-                    <span style={{ display: 'block', marginTop: '200px' }}>
+                    <span style={{ display: 'block', marginTop: '280px' }}>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://images.pexels.com/photos/14913695/pexels-photo-14913695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
@@ -92,7 +92,7 @@ export const SkirtsComponent = () => {
                             />
                         </div>
                     </span>
-                    <span style={{ display: 'block', marginTop: '200px' }}>
+                    <span style={{ display: 'block', marginTop: '280px', marginBottom: '150px' }}>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://media.istockphoto.com/id/1426465015/photo/serie-of-studio-photos-of-attractive-young-female-model-wearing-elegant-white-silk-satin.jpg?s=612x612&w=0&k=20&c=pxXcXc-KU0Y6bL11wscJPS_xnFDqKy4qkZChWOiLwEI='

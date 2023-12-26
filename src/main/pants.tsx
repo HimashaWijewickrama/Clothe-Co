@@ -4,6 +4,36 @@ import { TitleText } from '../components/titleText';
 import { Breadcrumber } from '../components/breadCrumber';
 
 export const PantsComponent = () => {
+    const pantsData = {
+        price1: "LKR 3,750.00",
+        title1: "Envogue Women's Office Jegging Pant",
+        price2: 'LKR 2,990.00',
+        title2: "Andriana Women's Front Pockets Pant",
+        price3: 'LKR 3,599.00',
+        title3: "Harem Women's Vintage Denim Jeans",
+        price4: 'LKR 5,800.00',
+        title4: "Envogue Women's Office Jegging Pant",
+        price5: 'LKR 3,799.00',
+        title5: "Andriana Women's Office Jegging Pant",
+        price6: 'LKR 4,599.00',
+        title6: "Andriana Women's Casual Jegging Pant",
+        price7: 'LKR 3,750.00',
+        title7: "Harem Women's Casual Jegging Pant",
+        price8: 'LKR 4,599.00',
+        title8: "SHEIN Teen Girl Ripped Raw Hem Skinny Jeans",
+        price9: 'LKR 3,890.00',
+        title9: "SHEIN printed white color Casual pant",
+        price10: 'LKR 3,999.00',
+        title10: "Envogue Women's Office Jegging Pant",
+        price11: 'LKR 3,799.00',
+        title11: "SHEIN Teen girl high waisted ripped jean",
+        price12: 'LKR 7,699.00',
+        title12: "SHEIN high waisted wide leg women's jean",
+
+
+
+    }
+    
     const [loading, setLoading] = useState(true);
     const simulateImageLoad = () => {
         setTimeout(() => {
@@ -14,10 +44,73 @@ export const PantsComponent = () => {
     useEffect(() => {
         simulateImageLoad();
     }, []);
+    const pantColor1 = [
+        { backgroundColor: '#ffffff'},
+        { backgroundColor: '#000000'},
+        { backgroundColor: '#38419D'}
+    ];
+    const pantColor2 = [
+        { backgroundColor: '#FFC7C7'},
+        { backgroundColor: '#FBA1B7'},
+    ];
+    const pantColor3 = [
+        { backgroundColor: '#a4c3de'},
+        { backgroundColor: '#84aed3'},
+        { backgroundColor: '#609cd0'},
+        { backgroundColor: '#4482b8'},
+        { backgroundColor: '#276499'},
+
+    ];
+    const pantColor4 = [
+        { backgroundColor: '#F875AA'},
+        { backgroundColor: '#FBA1B7'},
+    ];
+    const pantColor5 = [
+        { backgroundColor: '#303030'},
+        { backgroundColor: '#8E7F78'},
+        { backgroundColor: '#ffffff'},
+
+    ];
+    const pantColor6 = [
+        { backgroundColor: '#97441A'},
+        { backgroundColor: '#E14D2A'},
+        { backgroundColor: '#142F43'},
+    ];
+    const pantColor7 = [
+        { backgroundColor: '#97441A'},
+        { backgroundColor: '#E14D2A'},
+        { backgroundColor: '#6C4826'},
+    ];
+    const pantColor8 = [
+        { backgroundColor: '#171C22'},
+        { backgroundColor: '#384847'},
+    ];
+    const pantColor9 = [
+        { backgroundColor: '#ffffff'},
+
+    ];
+    const pantColor10 = [
+        { backgroundColor: '#AA9992'},
+        { backgroundColor: '#ffffff'},
+        { backgroundColor: '#0f1036'},
+    ];
+    const pantColor11 = [
+        { backgroundColor: '#a4c3de'},
+        { backgroundColor: '#84aed3'},
+        { backgroundColor: '#609cd0'},
+
+    ];
+    const pantColor12 = [
+        { backgroundColor: '#a4c3de'},
+        { backgroundColor: '#84aed3'},
+        { backgroundColor: '#609cd0'},
+        { backgroundColor: '#4482b8'},
+        { backgroundColor: '#3B5983'},
+    ];
     return (
         <div className='container' style={{ marginBottom: '50px' }}>
             <TitleText title="pants" />
-            <Breadcrumber title1='Shop Now' title2='Pants'/>
+            <Breadcrumber title1='Shop Now' title2='Pants' />
 
             {loading ? (
                 <div className='loader text-center'>
@@ -36,89 +129,103 @@ export const PantsComponent = () => {
                         <div style={{ display: 'inline-block', marginRight: '20px' }}>
                             <ProductCard
                                 imageUrl='https://imagescdn.planetfashion.in/img/app/product/7/739143-8269861.jpg'
-                                title="First Product"
-                                content="Description of the second product."
+                                title={pantsData.price1}
+                                content={pantsData.title1}
+                                subtitleSpans={pantColor1}
+
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
-                                title="Second Product"
-                                content="Description of the second product."
+                                title={pantsData.price2}
+                                content={pantsData.title2}
+                                subtitleSpans={pantColor2}
+
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D'
-                                title="Third Product"
-                                content="Description of the second product."
+                                title={pantsData.price3}
+                                content={pantsData.title3}
+                                subtitleSpans={pantColor3}
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://images.pexels.com/photos/7203477/pexels-photo-7203477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-                                title="fourth Product"
-                                content="Description of the second product."
+                                title={pantsData.price4}
+                                content={pantsData.title4}
+                                subtitleSpans={pantColor4}
                             />
                         </div>
                     </span>
-                    <span style={{ display: 'block', marginTop: '200px' }}>
+                    <span style={{ display: 'block', marginTop: '280px' }}>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://sslimages.shoppersstop.com/sys-master/images/h29/hbb/29441780383774/FLWASCRGF294882_LIGHT_GREY.jpg_136Wx204H'
-                                title="Fifth Product"
-                                content="Description of the second product."
+                                title={pantsData.price5}
+                                content={pantsData.title5}
+                                subtitleSpans={pantColor5}
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://images.unsplash.com/photo-1551854838-212c50b4c184?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8'
-                                title="Sixth Product"
-                                content="Description of the second product."
+                                title={pantsData.price6}
+                                content={pantsData.title6}
+                                subtitleSpans={pantColor6}
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://images.unsplash.com/photo-1519211777646-3a7ccf759b64?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                title="Seventh Product"
-                                content="Description of the second product."
+                                title={pantsData.price7}
+                                content={pantsData.title7}
+                                subtitleSpans={pantColor7}
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8'
-                                title="Eighth Product"
-                                content="Description of the second product."
+                                title={pantsData.price8}
+                                content={pantsData.title8}
+                                subtitleSpans={pantColor8}
                             />
                         </div>
                     </span>
-                    <span style={{ display: 'block', marginTop: '200px' }}>
+                    <span style={{ display: 'block', marginTop: '280px', marginBottom: '150px' }}>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://images.unsplash.com/photo-1602583459551-c0e623f7af36?q=80&w=1882&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                title="Nineth Product"
-                                content="Description of the second product."
+                                title={pantsData.price9}
+                                content={pantsData.title9}
+                                subtitleSpans={pantColor9}
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://4.imimg.com/data4/MI/DF/MY-1863278/ladies-formal-trouser.jpg'
-                                title="Tenth Product"
-                                content="Description of the second product."
+                                title={pantsData.price10}
+                                content={pantsData.title10}
+                                subtitleSpans={pantColor10}
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://mypamperedlifeseattle.com/cdn/shop/files/18720300_5462b370-7dbb-4004-b626-5dc635aee7ec.jpg?v=1691043970&width=533'
-                                title="Tenth Product"
-                                content="Description of the second product."
+                                title={pantsData.price11}
+                                content={pantsData.title11}
+                                subtitleSpans={pantColor11}
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://rukminim2.flixcart.com/image/850/1250/xif0q/jean/1/e/6/28-mid-blue-skg-original-imagzf9hzv8thead.jpeg?q=20'
-                                title="Tenth Product"
-                                content="Description of the second product."
+                                title={pantsData.price12}
+                                content={pantsData.title12}
+                                subtitleSpans={pantColor12}
                             />
                         </div>
 

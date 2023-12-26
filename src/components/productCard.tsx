@@ -9,9 +9,13 @@ interface ProductCardProps {
   title: string;
   content: string;
   badgeText?: string; // Making the badgeText optional
+  subtitleSpans?: {
+    backgroundColor: string;
+  }[];
+    // Add other styles as needed
 }
 
-export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, content, badgeText }) => {
+export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, content, badgeText, subtitleSpans }) => {
   const [isLiked, setIsLiked] = useState(false);
   const [isView, setIsView] = useState(false);
   // const [isAdded, setIsAdded] = useState(false);
@@ -22,7 +26,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
   const handleAlertClose = (type: string) => {
     if (type === 'fav') {
       setShowFavAlert(false);
-    } else  {
+    } else {
       setShowFavAlert(true);
     }
   };
@@ -57,7 +61,6 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
     setIsView(!isView);
   }
 
-
   return (
     <Card style={{ position: 'relative', width: '18rem', margin: '10px', height: '25rem', border: '1px solid #F8F9FA' }}>
       {badgeText && (
@@ -68,11 +71,28 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
       <Card.Img variant="top" src={imageUrl} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
-        <Card.Text>{content}</Card.Text>
+        <Card.Text className='text-muted text-capitalize text-right'>{content}
+        </Card.Text>
+        <Card.Subtitle>
+        {subtitleSpans &&
+            subtitleSpans.map((spanStyle, index) => (
+              <span
+                key={index}
+                style={{
+                  border: '1px solid #595C5F',
+                  backgroundColor: spanStyle.backgroundColor,
+                  width: '20px',
+                  height: '20px',
+                  display: 'inline-block',
+                  marginRight: '8px',
+                }}
+              ></span>
+            ))}
+        </Card.Subtitle>
 
       </Card.Body>
       <Card.Footer style={{ backgroundColor: '#F8F9FA' }}>
-      <ItemCounter title={'add to cart'}/>
+        <ItemCounter title={'add to cart'} />
 
         <span style={{ display: 'inline-block', marginBottom: '10px', marginLeft: '80px' }}>
           <IoHeart
@@ -100,7 +120,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
         <AlertDelete title="Added to favourites" open={showFavAlert} handleClose={() => handleAlertClose('fav')} />
       ) : (
         // showCartAlert && (
-          <AlertDelete title="Added" open={showFavAlert} handleClose={() => handleAlertClose('fav')} />
+        <AlertDelete title="Added" open={showFavAlert} handleClose={() => handleAlertClose('fav')} />
         // )
       )}
 

@@ -14,6 +14,12 @@ export const TopsComponent = () => {
     useEffect(() => {
         simulateImageLoad();
     }, []);
+    const subtitleSpans = [
+        { backgroundColor: 'blue' },
+        { backgroundColor: 'red' },
+        // Add more span styles as needed
+      ];
+      
     return (
         <div className='container' style={{ marginBottom: '50px' }}>
             <TitleText title="tops" />
@@ -37,6 +43,7 @@ export const TopsComponent = () => {
                                 imageUrl='https://media.istockphoto.com/id/1321444254/photo/young-woman-with-arms-raised-standing-against-sky.jpg?s=612x612&w=0&k=20&c=HPTxugxvKZXL9HZbAoQRQzaBu-lmxzAPuCJGtvgIMb0='
                                 title="First Product"
                                 content="Description of the second product."
+                                subtitleSpans={subtitleSpans}
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -61,7 +68,7 @@ export const TopsComponent = () => {
                             />
                         </div>
                     </span>
-                    <span style={{ display: 'block', marginTop: '200px' }}>
+                    <span style={{ display: 'block', marginTop: '280px' }}>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://images.pexels.com/photos/8053691/pexels-photo-8053691.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'
@@ -91,7 +98,7 @@ export const TopsComponent = () => {
                             />
                         </div>
                     </span>
-                    <span style={{ display: 'block', marginTop: '200px' }}>
+                    <span style={{ display: 'block', marginTop: '280px', marginBottom: '150px' }}>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://images.pexels.com/photos/6311612/pexels-photo-6311612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'

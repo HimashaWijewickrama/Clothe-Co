@@ -61,7 +61,7 @@ export const TwoPiecesComponent = () => {
                             />
                         </div>
                     </span>
-                    <span style={{ display: 'block', marginTop: '200px' }}>
+                    <span style={{ display: 'block', marginTop: '280px', marginBottom: '150px' }}>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             <ProductCard
                                 imageUrl='https://www.smilepromdresses.co/cdn/shop/products/Scoop_Neck_Long_Sleeve_Tulle_Wedding_Dress_With_Lace_Bodice_V_Back_Wedding_Gowns_PW512_grande.jpg?v=1574491763'
