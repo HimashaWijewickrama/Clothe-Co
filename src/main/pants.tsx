@@ -5,7 +5,7 @@ import { Breadcrumber } from '../components/breadCrumber';
 import { pantsData } from '../data/pantsData';
 
 export const PantsComponent = () => {
-    
+
     const [loading, setLoading] = useState(true);
     const simulateImageLoad = () => {
         setTimeout(() => {
@@ -104,6 +104,8 @@ export const PantsComponent = () => {
                                 title={pantsData.price1}
                                 content={pantsData.title1}
                                 subtitleSpans={pantColor1}
+                                badgeText='In Stock'
+
 
                             />
                         </div>
@@ -113,6 +115,8 @@ export const PantsComponent = () => {
                                 title={pantsData.price2}
                                 content={pantsData.title2}
                                 subtitleSpans={pantColor2}
+                                badgeText='In Stock'
+
 
                             />
                         </div>
@@ -122,6 +126,7 @@ export const PantsComponent = () => {
                                 title={pantsData.price3}
                                 content={pantsData.title3}
                                 subtitleSpans={pantColor3}
+                                badgeText='Out of Stock'
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -130,6 +135,8 @@ export const PantsComponent = () => {
                                 title={pantsData.price4}
                                 content={pantsData.title4}
                                 subtitleSpans={pantColor4}
+                                badgeText='In Stock'
+
                             />
                         </div>
                     </span>
@@ -140,6 +147,8 @@ export const PantsComponent = () => {
                                 title={pantsData.price5}
                                 content={pantsData.title5}
                                 subtitleSpans={pantColor5}
+                                badgeText='In Stock'
+
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -148,6 +157,8 @@ export const PantsComponent = () => {
                                 title={pantsData.price6}
                                 content={pantsData.title6}
                                 subtitleSpans={pantColor6}
+                                badgeText='In Stock'
+
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -156,6 +167,8 @@ export const PantsComponent = () => {
                                 title={pantsData.price7}
                                 content={pantsData.title7}
                                 subtitleSpans={pantColor7}
+                                badgeText='Out of Stock'
+
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -164,6 +177,8 @@ export const PantsComponent = () => {
                                 title={pantsData.price8}
                                 content={pantsData.title8}
                                 subtitleSpans={pantColor8}
+                                badgeText='In Stock'
+
                             />
                         </div>
                     </span>
@@ -174,6 +189,7 @@ export const PantsComponent = () => {
                                 title={pantsData.price9}
                                 content={pantsData.title9}
                                 subtitleSpans={pantColor9}
+                                badgeText='Low Stock'
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -182,6 +198,8 @@ export const PantsComponent = () => {
                                 title={pantsData.price10}
                                 content={pantsData.title10}
                                 subtitleSpans={pantColor10}
+                                badgeText='In Stock'
+
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -190,6 +208,8 @@ export const PantsComponent = () => {
                                 title={pantsData.price11}
                                 content={pantsData.title11}
                                 subtitleSpans={pantColor11}
+                                badgeText='Low Stock'
+
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
@@ -198,6 +218,8 @@ export const PantsComponent = () => {
                                 title={pantsData.price12}
                                 content={pantsData.title12}
                                 subtitleSpans={pantColor12}
+                                badgeText='New'
+
                             />
                         </div>
 

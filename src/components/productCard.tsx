@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge';
 import { IoEye, IoHeart, IoCart } from "react-icons/io5";
@@ -19,6 +19,22 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
   const [isLiked, setIsLiked] = useState(false);
   const [isView, setIsView] = useState(false);
   const [showFavAlert, setShowFavAlert] = useState(false);
+  const [badgeColor, setBadgeColor] = useState<'success' | 'danger' | 'primary' | 'warning' | 'secondary' | 'info'>('success'); // Define badge colors
+
+  // Function to change badge color based on condition
+  const changeBadgeColor = () => {
+    if (badgeText==='New') {
+      setBadgeColor('secondary'); 
+    } else if(badgeText==='Out of Stock') {
+      setBadgeColor('danger'); 
+    }else if(badgeText==='Low Stock'){
+      setBadgeColor("warning");
+    }else if(badgeText==="In Stock"){
+      setBadgeColor('success')
+    }else{
+      setBadgeColor('primary')
+    }
+  };
 
   const handleAlertClose = (type: string) => {
     if (type === 'fav') {
@@ -27,22 +43,6 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
       setShowFavAlert(true);
     }
   };
-
-  // const handleAddClick = () => {
-  //   setIsAdded(!isAdded);
-  //   if (!isAdded) {
-  //     setShowCartAlert(true);
-
-  //     // setTimeout(() => {
-  //     //   setShowCartAlert(false);
-  //     // }, 3000); // Close cart alert after 3 seconds
-  //   } else {
-  //     setShowCartAlert(false);
-  //   }
-
-  // };
-
-
 
   const handleLikeClick = () => {
     setIsLiked(!isLiked);
@@ -58,10 +58,15 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
     setIsView(!isView);
   }
 
+  useEffect(() => {
+    changeBadgeColor(); // Call the function initially
+  }, [badgeText]);
+
+
   return (
     <Card style={{ position: 'relative', width: '18rem', margin: '10px', height: '25rem', border: '1px solid #F8F9FA' }}>
       {badgeText && (
-        <Badge bg="success" style={{ position: 'absolute', top: '0px', right: '0px', fontSize: '15px' }}>
+        <Badge bg={badgeColor} style={{ position: 'absolute', top: '0px', right: '0px', fontSize: '15px' }}>
           {badgeText}
         </Badge>
       )}
@@ -71,7 +76,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
         <Card.Text className='text-muted text-capitalize text-right'>{content}
         </Card.Text>
         <Card.Subtitle>
-        {subtitleSpans &&
+          {subtitleSpans &&
             subtitleSpans.map((spanStyle, index) => (
               <span
                 key={index}
@@ -88,25 +93,38 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
         </Card.Subtitle>
 
       </Card.Body>
-      {showFooter && (
-      <Card.Footer style={{ backgroundColor: '#F8F9FA' }}>
-        <ItemCounter title={'add to cart'} />
+      {showFooter ? (
+        <Card.Footer style={{ backgroundColor: '#F8F9FA' }}>
+          <ItemCounter title={'add to cart'} />
 
-        <span style={{ display: 'inline-block', marginBottom: '10px', marginLeft: '80px' }}>
-          <IoHeart
-            data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Favourites"
-            size={25}
-            style={{ marginRight: '15px', color: isLiked ? '#F45050' : 'inherit', cursor: 'pointer' }}
-            onClick={handleLikeClick}
-          />
-          <IoEye
-            data-bs-toggle="tooltip" data-bs-placement="top" title="Quick View"
-            size={25}
-            style={{ marginRight: '15px', color: isView ? '#38419D' : 'inherit', cursor: 'pointer' }}
-            onClick={handleViewClick}
-          />
-        </span>
-      </Card.Footer>
+          <span style={{ display: 'inline-block', marginBottom: '10px', marginLeft: '80px' }}>
+            <IoHeart
+              data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Favourites"
+              size={25}
+              style={{ marginRight: '15px', color: isLiked ? '#F45050' : 'inherit', cursor: 'pointer' }}
+              onClick={handleLikeClick}
+            />
+            <IoEye
+              data-bs-toggle="tooltip" data-bs-placement="top" title="Quick View"
+              size={25}
+              style={{ marginRight: '15px', color: isView ? '#38419D' : 'inherit', cursor: 'pointer' }}
+              onClick={handleViewClick}
+            />
+          </span>
+        </Card.Footer>
+      ) : (
+        <Card.Footer style={{ backgroundColor: '#F8F9FA' }}>
+          <span style={{ display: 'flex', alignItems: 'center' }}>
+            <IoEye
+              data-bs-toggle="tooltip" data-bs-placement="top" title="Quick View"
+              size={25}
+              style={{ marginLeft: '75px', marginRight: '0px', color: isView ? '#38419D' : 'inherit', cursor: 'pointer', marginTop: '0px' }}
+              onClick={handleViewClick}
+            />
+            <p style={{ marginLeft: '0px', paddingLeft: '5px', marginTop: '10px', marginBottom: '10px' }}>Quick View</p>
+          </span>
+        </Card.Footer>
+
       )}
       {/* ... (other card content) ... */}
       {showFavAlert ? (
