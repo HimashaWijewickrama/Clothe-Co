@@ -121,7 +121,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
               style={{ marginLeft: '75px', marginRight: '0px', color: isView ? '#38419D' : 'inherit', cursor: 'pointer', marginTop: '0px' }}
               onClick={handleViewClick}
             />
-            <p style={{ marginLeft: '0px', paddingLeft: '5px', marginTop: '10px', marginBottom: '10px' }}>Quick View</p>
+            <p style={{ marginLeft: '0px', paddingLeft: '5px', marginTop: '10px', marginBottom: '10px', cursor: 'pointer' }}>Quick View</p>
           </span>
         </Card.Footer>
 
