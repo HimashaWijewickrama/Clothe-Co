@@ -1,0 +1,9 @@
+/* home-banner styles */
+.image-container{
+  width: 300px;
+}
+.image-container:hover {
+  transform: scale(1.1); /* Scale up the image container on hover */
+  transition: transform 0.5s ease; /* Transition property for smooth animation */
+}
+
