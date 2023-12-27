@@ -5,7 +5,6 @@ import { Breadcrumber } from "../components/breadCrumber";
 import { GrNext } from "react-icons/gr";
 import { GrPrevious } from "react-icons/gr";
 
-
 export const CustomerReview = () => {
 
     const reviews = [
@@ -65,7 +64,7 @@ export const CustomerReview = () => {
             <div style={{
                     border: '1px solid #f6f6f6',
                     // backgroundColor: '#F8F9FA',
-                    backgroundColor: previousActive ? 'red' : '#f8f8f8',
+                    backgroundColor: previousActive ? '#d6d6d6' : '#f8f8f8',
                     width: '60px',
                     height: '60px',
                     borderRadius: '50%',
@@ -86,17 +85,17 @@ export const CustomerReview = () => {
                     </div>
                 ))}
 
-                <div style={{
+                <div className="nextButton" style={{
                     border: '1px solid #f6f6f6',
-                    // backgroundColor: '#F8F9FA',
-                    backgroundColor: nextActive ? 'red' : '#F8F8F8',
+                    backgroundColor: nextActive ? '#d6d6d6' : '#F8F8F8',
                     width: '60px',
                     height: '60px',
                     borderRadius: '50%',
                     display: 'flex',
                     justifyContent: 'center',
-                    alignItems: 'center'
-                }}>
+                    alignItems: 'center',
+                }}
+                >
                     <GrNext size={40} onClick={handleNext} /></div>
             </div>
         </div>
