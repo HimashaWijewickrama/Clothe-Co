@@ -17,7 +17,7 @@ export const NewInComponent = () => {
     }, []);
 
     return (
-        <div className='container' style={{ marginBottom: '50px' }}>
+        <div className='container' style={{ marginBottom: '280px' }}>
             <TitleText title="new in" />
             <Breadcrumber title1='Home' title2='New In'/>
 
