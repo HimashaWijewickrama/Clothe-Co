@@ -7,7 +7,7 @@ export const Banner = () => {
     const containerInnerStyle = {
         backgroundImage: `url(${bannerBackground})`,
         backgroundSize: 'cover',
-        marginBottom: '100px', 
+        marginBottom: '100px',
         height: '450px'
     };
     const cardStyle = {
@@ -19,9 +19,21 @@ export const Banner = () => {
         transition: 'transform 0.5s ease', // Transition property for smooth animation
     };
 
-
+    const commonTextStyle: Record<string, string | number> = {
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        textAlign: 'center',
+        color: 'white',
+    };
     return (
         <div className="container-inner d-flex" style={{ ...containerInnerStyle }}>
+            <div className="common-text" style={{position: 'absolute', textAlign: 'center', left: '50%', marginTop: '30px'}}>
+            <h5 className="card-title fs-1" style={{ marginBottom: '20px' }}>Services</h5>
+                {/* <p>Additional common information can go here.</p> */}
+            </div>
+
             <div className="card mb-2" style={{ ...cardStyle }}>
                 <div className="row g-0">
                     <div className="col-md-6">
