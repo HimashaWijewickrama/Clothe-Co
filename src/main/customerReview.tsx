@@ -56,7 +56,7 @@ export const CustomerReview = () => {
     };
 
     return (
-        <div className='container' style={{ marginBottom: '50px' }}>
+        <div className='container' style={{ marginBottom: '150px' }}>
             <TitleText title="customer reviews" />
             <Breadcrumber title1='Home' title2='Customer reviews' />
 

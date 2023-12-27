@@ -4,6 +4,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { NewInComponent } from './newin';
 import { CustomerReview } from './customerReview';
 import { Banner } from './banner';
+import { ContactUs } from './contact-us';
+
 export const Home = () => {
 
 
@@ -60,6 +62,7 @@ export const Home = () => {
       <NewInComponent />
       <Banner/>
       <CustomerReview/>
+      <ContactUs/>
     </div>
   )
 }
