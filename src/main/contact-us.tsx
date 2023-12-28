@@ -30,7 +30,7 @@ export const ContactUs = () => {
                                     </div>
                                     <div className="col-md-8" style={{ marginTop: '10px' }}>
                                         <label className="form-label">Subject *</label>
-                                        <input type="text" className="form-control" id="validationCustom03" placeholder='Your subject is required' required />
+                                        <input type="text" className="form-control" id="validationCustom03" placeholder='Subject of your message is required' required />
                                     </div>
                                     <div className="col-md-8" style={{ marginTop: '10px' }}>
                                         <label className="form-label">Your Message *</label>

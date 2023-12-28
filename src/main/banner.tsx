@@ -29,8 +29,8 @@ export const Banner = () => {
     };
     return (
         <div className="container-inner d-flex" style={{ ...containerInnerStyle }}>
-            <div className="common-text" style={{position: 'absolute', textAlign: 'center', left: '50%', marginTop: '30px'}}>
-            <h5 className="card-title fs-1" style={{ marginBottom: '20px' }}>Services</h5>
+            <div className="common-text" style={{position: 'absolute', textAlign: 'center', left: '40%', marginTop: '30px'}}>
+            <h5 className="card-title fs-1" style={{ marginBottom: '20px' }}>Our Services</h5>
                 {/* <p>Additional common information can go here.</p> */}
             </div>
 
@@ -43,8 +43,8 @@ export const Banner = () => {
                     </div>
                     <div className="col-md-6" style={{ marginTop: '50px' }}>
                         <div className="card-body">
-                            <h5 className="card-title fs-3">Support 24/7</h5>
-                            <p className="card-text fs-5 text-muted">24/7 Customer Support</p>
+                            <h5 className="card-title fs-3 text-muted">Support 24/7</h5>
+                            <p className="card-text fs-5 fw-light">24/7 Customer Support</p>
                         </div>
                     </div>
                 </div>
@@ -58,8 +58,8 @@ export const Banner = () => {
                     </div>
                     <div className="col-md-6" style={{ marginTop: '50px' }}>
                         <div className="card-body">
-                            <h5 className="card-title fs-3">Island Wide Delivery</h5>
-                            <p className="card-text fs-5 text-muted">Delivery to anywhere in Sri Lanka</p>
+                            <h5 className="card-title fs-3 text-muted">Island Wide Delivery</h5>
+                            <p className="card-text fs-5 fw-light">Delivery to anywhere in Sri Lanka</p>
                         </div>
                     </div>
                 </div>
@@ -73,8 +73,8 @@ export const Banner = () => {
                     </div>
                     <div className="col-md-6" style={{ marginTop: '50px' }}>
                         <div className="card-body">
-                            <h5 className="card-title fs-3">Easy Return</h5>
-                            <p className="card-text fs-5 text-muted" >Simply return it within 30 days</p>
+                            <h5 className="card-title fs-3 text-muted">Easy Return</h5>
+                            <p className="card-text fs-5 fw-light" >Simply return it within 30 days</p>
                         </div>
                     </div>
                 </div>

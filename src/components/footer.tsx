@@ -1,6 +1,6 @@
 import '../styles/footer.css';
 import { IoIosSend } from "react-icons/io";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaEnvelope, FaLocationArrow, FaPhoneAlt, FaVoicemail, FaWhatsapp } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from 'react-icons/fa';
@@ -31,6 +31,8 @@ export const Footer = () => {
                             <h5 className="h1 text-dark">CLOTHE CO.</h5>
                             <p className="small text-muted" style={{ textAlign: 'justify' }}>We think individuality and exclusivity are the foundations of the future. We aim to democratize fashion and make timeless aesthetic available to all!
                             </p>
+                            <h5 className="mb-3 fw-bold">Follow Us |</h5>
+
                             <span style={{ marginRight: '20px', color: 'muted' }}><FaWhatsapp size={25} data-bs-toggle="tooltip" data-bs-placement="top" title="Whatsapp" /></span>
                             <span style={{ marginRight: '20px', color: 'muted' }}><FaFacebook size={25} data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" /></span>
                             <span style={{ marginRight: '20px', color: 'muted' }}><FaInstagram size={25} data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram" /></span>
@@ -45,15 +47,34 @@ export const Footer = () => {
                                 <li><a href="#" style={{ textDecoration: 'none' }}>About</a></li>
                                 <li><a href="#" style={{ textDecoration: 'none' }}>Get started</a></li>
                                 <li><a href="#" style={{ textDecoration: 'none' }}>FAQ</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-lg-2 col-md-6">
-                            <h5 className="text-muted mb-3 fw-bold">Quick Links</h5>
-                            <ul className="list-unstyled text-muted">
                                 <li><a href="#" style={{ textDecoration: 'none' }}>New-In</a></li>
                                 <li><a href="#" style={{ textDecoration: 'none' }}>Shop Now</a></li>
                                 <li><a href="#" style={{ textDecoration: 'none' }}>Cart</a></li>
                                 <li><a href="#" style={{ textDecoration: 'none' }}>Favourites</a></li>
+
+                            </ul>
+                        </div>
+                        <div className="col-lg-2 col-md-6">
+                            <h5 className="text-muted mb-3 fw-bold">Customer Service</h5>
+                            <ul className="list-unstyled text-muted">
+                                <li style={{ paddingBottom: '10px' }}>
+                                    <span style={{ marginRight: '5px', color: 'muted' }}>
+                                        <FaPhoneAlt size={15} data-bs-toggle="tooltip" data-bs-placement="top" title="Hot-line" />
+                                    </span>
+                                    +94 769 603 388
+                                </li>
+                                <li style={{ paddingBottom: '10px' }}>
+                                    <span style={{ marginRight: '5px', color: 'muted' }}>
+                                        <FaEnvelope size={15} data-bs-toggle="tooltip" data-bs-placement="top" title="E mail" />
+                                    </span>
+                                    online@clotheco.lk
+                                </li>
+                                <li style={{ paddingBottom: '10px' }}>
+                                    <span style={{ marginRight: '5px', color: 'muted' }}>
+                                        <FaLocationArrow size={15} data-bs-toggle="tooltip" data-bs-placement="top" title="Location" />
+                                    </span>
+                                    No: 216/7, Colombo 5
+                                </li>
                             </ul>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -66,10 +87,7 @@ export const Footer = () => {
 
                                 </div>
                             </form>
-                            <span style={{ marginRight: '20px', color: 'muted' }}><FaPhone size={25} data-bs-toggle="tooltip" data-bs-placement="top" title="Whatsapp" /></span>
-                            <span style={{ marginRight: '20px', color: 'muted' }}><FaFacebook size={25} data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" /></span>
-                            <span style={{ marginRight: '20px', color: 'muted' }}><FaInstagram size={25} data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram" /></span>
-                            <span style={{ marginRight: '20px', color: 'muted' }}><FaTwitter size={25} data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" /></span>
+
                         </div>
                         <hr style={{ color: 'muted' }} />
                         <div style={{ alignContent: 'center', textAlign: 'center' }}>
