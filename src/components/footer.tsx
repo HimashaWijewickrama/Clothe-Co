@@ -1,13 +1,9 @@
-import '../styles/footer.css';
+import { FaEnvelope, FaFacebook, FaInstagram, FaLocationArrow, FaPhoneAlt, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { IoIosSend } from "react-icons/io";
-import { FaEnvelope, FaLocationArrow, FaPhoneAlt, FaVoicemail, FaWhatsapp } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from 'react-icons/fa';
-import { FaPhone } from 'react-icons/fa';
+import '../styles/footer.css';
 
 import Button from 'react-bootstrap/Button';
-import LogoNav from '../assets/logo-nav.png'
+import LogoNav from '../assets/logo-nav.png';
 
 export const Footer = () => {
     return (
