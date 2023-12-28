@@ -5,7 +5,7 @@ import { IoEye, IoHeart, IoCart } from "react-icons/io5";
 import AlertDelete from './alertDelete';
 import { ItemCounter } from './itemCounter';
 interface ProductCardProps {
-  imageUrl: string;
+  imageUrl?: string;
   title: string;
   content: string;
   badgeText?: string; // Making the badgeText optional

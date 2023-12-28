@@ -1,15 +1,17 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Navigation } from './components/navigation';
-import { Footer } from './components/footer';
-import  { FrocksComponent }  from './main/frocks'; // Import your Frocks component
-import { TopsComponent } from './main/tops';
-import { Home } from './main/home';
-import { PantsComponent } from './main/pants';
-import { SkirtsComponent } from './main/skirts';
-import { JumpsuitsComponent } from './main/jumpsuits';
-import { TwoPiecesComponent } from './main/twopieces';
-import { AccessoriesComponent } from './main/accessories';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Advertisement } from './components/advertisement';
+import { Footer } from './components/footer';
+import { Navigation } from './components/navigation';
+import { AccessoriesComponent } from './main/accessories';
+import { FrocksComponent } from './main/frocks'; // Import your Frocks component
+import { Home } from './main/home';
+import { JumpsuitsComponent } from './main/jumpsuits';
+// import { PantsComponent } from './main/pants';
+import { SkirtsComponent } from './main/skirts';
+import { TopsComponent } from './main/tops';
+import { TwoPiecesComponent } from './main/twopieces';
+import { PantsComponent } from './main/pantsCompontn';
+import Test from './components/test';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       <Route path='/jumpsuits' element={<JumpsuitsComponent/>}/>
       <Route path='/two-piece-sets' element={<TwoPiecesComponent/>}/>
       <Route path='/fashion-accessories' element={<AccessoriesComponent/>}/>
+
+      <Route path='/test' element={<Test/>}/>
 
 
 

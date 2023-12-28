@@ -67,13 +67,13 @@ export const NewInComponent = () => {
                             />
                         </div>
                         <div style={{ display: 'inline-block', marginRight: '10px' }}>
-                            <ProductCard
+                            {/* <ProductCard
                                 imageUrl='https://rukminim2.flixcart.com/image/850/1250/xif0q/jean/1/e/6/28-mid-blue-skg-original-imagzf9hzv8thead.jpeg?q=20'
                                 title={pantsData.price12}
                                 content={pantsData.title12}
                                 badgeText="New"
                                 showFooter={false} // Set showFooter prop to false for this ProductCard
-                            />
+                            /> */}
                         </div>
                     </span>
                     <span style={{ display: 'block', marginTop: '280px' }}>
