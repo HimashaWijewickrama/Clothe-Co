@@ -10,7 +10,7 @@ import { JumpsuitsComponent } from './main/jumpsuits';
 import { SkirtsComponent } from './main/skirts';
 import { TopsComponent } from './main/tops';
 import { TwoPiecesComponent } from './main/twopieces';
-import { PantsComponent } from './main/pantsComponent';
+import { PantsComponent } from './main/pants';
 import Test from './components/test';
 
 function App() {
