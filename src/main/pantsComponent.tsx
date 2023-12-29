@@ -5,15 +5,9 @@ import { Breadcrumber } from '../components/breadCrumber';
 import { pantsData } from '../data/pantsData';
 import SearchBar from '../components/searchBar';
 import { TfiFaceSad } from "react-icons/tfi";
+import { IPant } from '../types/interfaces';
 
-interface IPant {
-    id: string;
-    imageURL: string;
-    title: string;
-    content: string;
-    subtitleSpans: { backgroundColor: string }[];
-    badgeText?: string;
-}
+
 
 export const PantsComponent: React.FC = () => {
     const [loading, setLoading] = useState(true);
@@ -24,7 +18,7 @@ export const PantsComponent: React.FC = () => {
         const simulateImageLoad = () => {
             setTimeout(() => {
                 setLoading(false);
-            }, 5000);
+            }, 2000);
         };
 
         simulateImageLoad();
