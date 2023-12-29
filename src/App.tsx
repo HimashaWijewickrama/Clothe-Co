@@ -6,12 +6,10 @@ import { AccessoriesComponent } from './main/accessories';
 import { FrocksComponent } from './main/frocks'; // Import your Frocks component
 import { Home } from './main/home';
 import { JumpsuitsComponent } from './main/jumpsuits';
-// import { PantsComponent } from './main/pants';
 import { SkirtsComponent } from './main/skirts';
 import { TopsComponent } from './main/tops';
 import { TwoPiecesComponent } from './main/twopieces';
 import { PantsComponent } from './main/pants';
-import Test from './components/test';
 
 function App() {
   return (
@@ -30,7 +28,6 @@ function App() {
       <Route path='/two-piece-sets' element={<TwoPiecesComponent/>}/>
       <Route path='/fashion-accessories' element={<AccessoriesComponent/>}/>
 
-      <Route path='/test' element={<Test/>}/>
 
 
 
