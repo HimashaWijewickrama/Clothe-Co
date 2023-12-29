@@ -5,7 +5,7 @@ import { Breadcrumber } from '../components/breadCrumber';
 import { pantsData } from '../data/pantsData';
 import SearchBar from '../components/searchBar';
 import { TfiFaceSad } from "react-icons/tfi";
-import { IPant } from '../types/interfaces';
+import { IPant } from '../types/IPant';
 
 
 
