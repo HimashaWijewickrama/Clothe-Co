@@ -22,7 +22,7 @@ const SearchBar: React.FC<ISearchBarProps> = ({ onSearch }) => {
     
 
     return (
-        <div className="container">
+        <div className="container outline-dark">
             <Form onSubmit={handleSubmit} className="d-flex form-inline">
                 <Form.Control
                     onChange={handleChange}
@@ -32,7 +32,7 @@ const SearchBar: React.FC<ISearchBarProps> = ({ onSearch }) => {
                     className="me-2"
                     aria-label="Search"
                 />
-                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">
+                <button className="btn btn-outline-dark my-2 my-sm-0" type="submit">
                     Search
                 </button>
             </Form>
