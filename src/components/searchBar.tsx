@@ -11,19 +11,30 @@ const SearchBar: React.FC<ISearchBarProps> = ({ onSearch }) => {
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const query = e.target.value;
         setSearch(query);
-        onSearch(query); // Pass the query to the parent component for filtering
+
     };
+
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        console.log('Search Query:', search); // search query
+        onSearch(search);
+    };
+    
 
     return (
         <div className="container">
-            <Form className="d-flex">
+            <Form onSubmit={handleSubmit} className="d-flex form-inline">
                 <Form.Control
                     onChange={handleChange}
+                    value={search} // Bind input value to search state
                     type="search"
                     placeholder="Search"
                     className="me-2"
                     aria-label="Search"
                 />
+                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">
+                    Search
+                </button>
             </Form>
         </div>
     );
