@@ -1,7 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { NewinsComponent } from './newinComponent';
+import { NewinsComponent } from './newin';
 import { CustomerReview } from './customerReview';
 import { Banner } from './banner';
 import { ContactUs } from './contact-us';
