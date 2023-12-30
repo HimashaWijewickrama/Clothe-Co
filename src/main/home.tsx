@@ -1,7 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { NewInComponent } from './newin';
+import { NewinsComponent } from './newinComponent';
 import { CustomerReview } from './customerReview';
 import { Banner } from './banner';
 import { ContactUs } from './contact-us';
@@ -59,7 +59,7 @@ export const Home = () => {
         </button>
 
       </div>
-      <NewInComponent />
+      <NewinsComponent />
       <Banner/>
       <CustomerReview/>
       <ContactUs/>
