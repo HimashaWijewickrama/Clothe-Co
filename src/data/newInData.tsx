@@ -69,7 +69,7 @@ export const newinData: INewin[] = [
         id: '1',
         imageURL: "https://images.unsplash.com/photo-1566977744263-79e677f4e7cf?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "LKR 1,600.00",
-        content: "Subtle Adjustable Gold Plated Ring",
+        content: "Subtle Adjustable 18k Gold Plated Ring",
         // subtitleSpans: pantColor1,
         badgeText: "New",
         // showFooter:{false}
@@ -88,7 +88,7 @@ export const newinData: INewin[] = [
         id: '3',
         imageURL: 'https://images.unsplash.com/photo-1615197419962-90f21da0956d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         title: "LKR 1,250.00",
-        content: "Delicate Engraved Drop Earrings",
+        content: "Delicate Engraved Gold and Black Mixed Drop Earring",
         // subtitleSpans: pantColor3,
         badgeText: "New",
         // showFooter:{false}
@@ -105,24 +105,24 @@ export const newinData: INewin[] = [
     {
         id: '5',
         imageURL: "https://images.unsplash.com/photo-1579493934830-eab45746b51b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        title: "LKR 4,500.00",
-        content: "Andriana Women's Short Sleeve T-Shirts",
+        title: "LKR 3,570.00",
+        content: "Andriana Women's Blue and Brown Blended Sweater",
         // subtitleSpans: pantColor5,
         badgeText: "New"
     },
     {
         id: '6',
         imageURL: "https://images.unsplash.com/photo-1496217590455-aa63a8350eea?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        title: "LKR 4,500.00",
-        content: "Andriana Women's Short Sleeve T-Shirts",
+        title: "LKR 5,700.00",
+        content: "Andriana Summer special dress - limited edition",
         // subtitleSpans: pantColor5,
         badgeText: "New"
     },
     {
         id: '7',
         imageURL: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        title: 'LKR 3,750.00',
-        content: "Harem Women's Casual Jegging Pant",
+        title: 'LKR 3,000.00',
+        content: "Andriana Summer special mini dress",
         // subtitleSpans: pantColor7,
         badgeText: "New"
 
@@ -130,9 +130,9 @@ export const newinData: INewin[] = [
     {
         id: '8',
         imageURL: "https://plus.unsplash.com/premium_photo-1674719144437-d1c253a8b775?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        title: 'LKR 4,599.00',
-        content: "SHEIN Teen Girl Ripped Raw Hem Skinny Jeans",
-        subtitleSpans: pantColor8,
+        title: 'LKR 7,599.00',
+        content: "Gothic White Color high heeled women's boot",
+        // subtitleSpans: pantColor8,
         badgeText: "New"
     },
     {
@@ -181,43 +181,43 @@ export const newinData: INewin[] = [
     {
         id: '15',
         imageURL: 'https://images.unsplash.com/photo-1531357732422-758bdf2af3d5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        title: "LKR 4,500.00",
-        content: "Andriana Women's Short Sleeve T-Shirts",
+        title: "LKR 4,280.00",
+        content: "Handmade Woven Round Shoulder bag",
         badgeText: "New"
     },
     {
         id: '16',
         imageURL: 'https://images.unsplash.com/photo-1566331126664-f1cf3be4d5f4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        title: "LKR 4,500.00",
-        content: "Andriana Women's Short Sleeve T-Shirts",
+        title: "LKR 1,100.00",
+        content: "Andriana Women's White Hat with black ribbon",
         badgeText: "New"
     },
     {
         id: '17',
         imageURL: 'https://images.unsplash.com/photo-1556743630-60ec5c685f78?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         title: "LKR 1,500.00",
-        content: "Linen Summer Hat",
+        content: "Linen Summer Hat with black ribbon",
         badgeText: "New"
     },
     {
         id: '18',
         imageURL: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         title: "LKR 58,390.00",
-        content: "Chanel Coco Noir Eau De Parfum Spray - 50ml",
+        content: "Chanel Coco Noir Eau De Perfume Spray - 50ml",
         badgeText: "New"
     },
     {
         id: '19',
         imageURL: 'https://images.unsplash.com/photo-1600086586698-368d69f00d6e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         title: "LKR 8,590.00",
-        content: "Chanel Gabrielle Eau De Parfume",
+        content: "Chanel Gabrielle Eau De Perfume - 50ml",
         badgeText: "New"
     },
     {
         id: '20',
         imageURL: 'https://images.unsplash.com/photo-1566977776052-6e61e35bf9be?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         title: "LKR 6, 670.00",
-        content: "L'Eau Laurissi Poem Water Perfume",
+        content: "L'Eau Laurissi Poem Water Perfume - 50ml",
         badgeText: "New"
     },
 
