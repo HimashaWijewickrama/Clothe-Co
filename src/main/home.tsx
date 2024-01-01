@@ -43,12 +43,10 @@ export const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <NewinsComponent />
+      <Element name="newin"><NewinsComponent/></Element>
       <Banner />
-      <CustomerReview />
-      <Element name="contact">
-        <ContactUs />
-      </Element>
+      <Element name="review"><CustomerReview /></Element>
+      <Element name="contact"><ContactUs /></Element>
     </div>
   )
 }

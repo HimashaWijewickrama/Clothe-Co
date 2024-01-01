@@ -56,7 +56,8 @@ export const CustomerReview = () => {
     };
 
     return (
-        <div className='container' style={{ marginBottom: '150px' }}>
+        <div id="review">
+        <div className='container' style={{ marginBottom: '280px' }}>
             <TitleText title="customer reviews" />
             <Breadcrumber title1='Home' title2='Customer reviews' />
 
@@ -98,6 +99,7 @@ export const CustomerReview = () => {
                 >
                     <GrNext size={40} onClick={handleNext} /></div>
             </div>
+        </div>
         </div>
     );
 };

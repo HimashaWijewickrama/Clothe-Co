@@ -45,14 +45,12 @@ export const NewinsComponent: React.FC = () => {
         }
     }, [filteredNewins]);
 
-
-
-
     return (
+<div id="newin">
 
         <div className='container' >
             <TitleText title="new in" />
-            <Breadcrumber title1='Shop Now' title2='New in' />
+            <Breadcrumber title1='home' title2='New in' />
             <SearchBar onSearch={handleSearch} />
 
             {loading ? (
@@ -78,7 +76,6 @@ export const NewinsComponent: React.FC = () => {
                                         imageUrl={newin.imageURL}
                                         title={newin.title}
                                         content={newin.content}
-                                        // subtitleSpans={newin.subtitleSpans}
                                         badgeText={newin.badgeText}
                                     />
                                 </div>
@@ -87,6 +84,7 @@ export const NewinsComponent: React.FC = () => {
                     </span>
                 </div>
             )}
+        </div>
         </div>
     );
 };

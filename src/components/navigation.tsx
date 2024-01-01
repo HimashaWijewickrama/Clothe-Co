@@ -17,6 +17,19 @@ export const Navigation: React.FC = () => {
             contactSection.scrollIntoView({ behavior: 'smooth' });
         }
     };
+    const scrollToNewin = () => {
+        const newinSection = document.getElementById('newin');
+        if (newinSection) {
+            newinSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+    const scrollToReview = () => {
+        const reviewSection = document.getElementById('review');
+        if (reviewSection) {
+            reviewSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
 
     return (
         <Navbar expand="lg" className="bg-body-tertiary" style={{ margin: '0px' }}>
@@ -31,7 +44,7 @@ export const Navigation: React.FC = () => {
                         navbarScroll
                     >
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/">New-In</Nav.Link>
+                        <Nav.Link onClick={scrollToNewin}>New-In</Nav.Link>
                         <NavDropdown title="Shop Now" id="navbarScrollingDropdown">
                             <NavDropdown.Item as={Link} to="/tops">Tops</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/pants">Pants</NavDropdown.Item>
@@ -44,6 +57,7 @@ export const Navigation: React.FC = () => {
                         </NavDropdown>
                         <Nav.Link as={Link} to="/#about-us">About Us</Nav.Link>
                         <Nav.Link onClick={scrollToContact}>Contact Us</Nav.Link>
+                        <Nav.Link onClick={scrollToReview}>Customer Reviews</Nav.Link>
                     </Nav>
                     <Form className="d-flex" >
                         <Nav
