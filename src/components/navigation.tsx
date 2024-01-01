@@ -1,45 +1,22 @@
-import Button from 'react-bootstrap/Button';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { FaShoppingCart } from "react-icons/fa";
-import { TbJewishStarFilled } from "react-icons/tb";
-import { TbTruckDelivery } from "react-icons/tb";
+import Navbar from 'react-bootstrap/Navbar';
 import { BiSolidUserCircle } from "react-icons/bi";
-import { BiSearchAlt } from "react-icons/bi";
+import { FaShoppingCart } from "react-icons/fa";
+import { TbJewishStarFilled, TbTruckDelivery } from "react-icons/tb";
 import { Link } from 'react-router-dom';
 import LogoNav from '../assets/logo-nav.png';
-import React, { useEffect, useState } from 'react';
-
-// interface ISearchItem {
-//     id: string;
-//     name: string;
-// }
-
-// const students: ISearchItem[] = [
-//     { id: '1', name: 'Alice Johnson' },
-//     { id: '2', name: 'Bob Smith' },
-//     { id: '3', name: 'Alice Williams' },
-//     { id: '4', name: 'Charlie Brown' },
-//     { id: '5', name: 'Alison Johnson' },
-//     { id: '6', name: 'John Doe' },
-//     { id: '7', name: 'Jane Doe' },
-// ];
 
 export const Navigation: React.FC = () => {
-    // const [searchItem, setSearchItems] = useState<ISearchItem[]>(students);
-    // const [search, setSearch] = useState<string>("");
-
-    // const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    //     setSearch(e.target.value);
-    // };
-
-    // const filteredSearchItem = searchItem.filter((searchItem) =>
-    //     searchItem.name.toLowerCase().includes(search.toLowerCase())
-    // );
-
+    const scrollToContact = () => {
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
     return (
         <Navbar expand="lg" className="bg-body-tertiary" style={{ margin: '0px' }}>
@@ -65,14 +42,9 @@ export const Navigation: React.FC = () => {
                             <NavDropdown.Divider />
                             <NavDropdown.Item as={Link} to="/fashion-accessories">Fashion Accessories</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link as={Link} to="/about-us">About Us</Nav.Link>
-                        <Nav.Link as={Link} to="/contact-us">Contact Us</Nav.Link>
-
-
-
+                        <Nav.Link as={Link} to="/#about-us">About Us</Nav.Link>
+                        <Nav.Link onClick={scrollToContact}>Contact Us</Nav.Link>
                     </Nav>
-
-
                     <Form className="d-flex" >
                         <Nav
                             className="me-auto"
@@ -85,23 +57,6 @@ export const Navigation: React.FC = () => {
 
 
                         </Nav>
-                        {/* <Form.Control
-                            type="search"
-                            placeholder="Search"
-                            className="me-2"
-                            aria-label="Search"
-                            onChange={handleChange}
-
-                        />
-                        <ul className="posts">
-                            {filteredSearchItem.map((searchItem) => (
-                                <li key={searchItem.id}>
-                                    <h3>{searchItem.name}</h3>
-                                </li>
-                            ))}
-                            {filteredSearchItem.length === 0 && <li>No matching results found</li>}
-                        </ul>
-                        <Button variant="outline-success" ><BiSearchAlt /></Button> */}
                     </Form>
                 </Navbar.Collapse>
             </Container>

@@ -9,7 +9,10 @@ export const ContactUs = () => {
         marginBottom: '50px',
         height: '550px'
     };
+
     return (
+        <div id='contact'>
+
         <div className="container-inner d-flex" style={{ ...containerInnerStyle }}>
             <div className="card mb-3" style={{ maxWidth: "100%", border: '0px', backgroundColor: 'transparent' }}>
                 <div className="row g-0">
@@ -53,6 +56,8 @@ export const ContactUs = () => {
             </div>
 
         </div>
+        </div>
+
 
     )
 }
