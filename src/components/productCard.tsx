@@ -139,7 +139,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
         <AlertDelete title="Added" open={showFavAlert} handleClose={() => handleAlertClose('fav')} />
         // )
       )}
-                  <ProductModal header="hello" body="hai" item="Gold Chain" other="sorry" footer="this item is already sold out" isView={isView} handleClose={handleClose} />
+      <ProductModal header="hello" body="hai" item="Gold Chain" other="sorry" footer="this item is already sold out" isView={isView} handleClose={handleClose} />
 
 
 
