@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge';
-import { IoEye, IoHeart, IoCart } from "react-icons/io5";
+import { IoEye, IoHeart } from "react-icons/io5";
 import AlertDelete from './alertDelete';
 import { ItemCounter } from './itemCounter';
+import ProductModal from './productModal'
+
 interface ProductCardProps {
   imageUrl?: string;
   title: string;
@@ -23,15 +25,15 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
 
   // Function to change badge color based on condition
   const changeBadgeColor = () => {
-    if (badgeText==='New') {
-      setBadgeColor('secondary'); 
-    } else if(badgeText==='Out of Stock') {
-      setBadgeColor('danger'); 
-    }else if(badgeText==='Low Stock'){
+    if (badgeText === 'New') {
+      setBadgeColor('secondary');
+    } else if (badgeText === 'Out of Stock') {
+      setBadgeColor('danger');
+    } else if (badgeText === 'Low Stock') {
       setBadgeColor("warning");
-    }else if(badgeText==="In Stock"){
+    } else if (badgeText === "In Stock") {
       setBadgeColor('success')
-    }else{
+    } else {
       setBadgeColor('primary')
     }
   };
@@ -55,8 +57,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
   };
 
   const handleViewClick = () => {
-    setIsView(!isView);
+    setIsView(true);
   }
+  const handleClose = () => {
+    setIsView(false);
+  };
 
   useEffect(() => {
     changeBadgeColor(); // Call the function initially
@@ -116,9 +121,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
         <Card.Footer style={{ backgroundColor: '#F8F9FA' }}>
           <span style={{ display: 'flex', alignItems: 'center' }}>
             <IoEye
-              data-bs-toggle="tooltip" data-bs-placement="top" title="Quick View"
               size={25}
-              style={{ marginLeft: '75px', marginRight: '0px', color: isView ? '#38419D' : 'inherit', cursor: 'pointer', marginTop: '0px' }}
+              data-bs-toggle="modal" data-bs-target="#exampleModal"
+              style={{ marginLeft: '75px', marginRight: '0px', cursor: 'pointer', marginTop: '0px' }}
               onClick={handleViewClick}
             />
             <p style={{ marginLeft: '0px', paddingLeft: '5px', marginTop: '10px', marginBottom: '10px', cursor: 'pointer' }}>Quick View</p>
@@ -134,6 +139,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
         <AlertDelete title="Added" open={showFavAlert} handleClose={() => handleAlertClose('fav')} />
         // )
       )}
+                  <ProductModal header="hello" body="hai" item="Gold Chain" other="sorry" footer="this item is already sold out" isView={isView} handleClose={handleClose} />
+
+
 
     </Card>
   );
