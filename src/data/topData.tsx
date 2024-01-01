@@ -82,7 +82,7 @@ export const topData: ITop[] = [
         title: 'LKR 3,750.00',
         content: "Envogue Women's Sweater Top - Limited Edition",
         subtitleSpans: topColor1,
-        badgeText:'In Stock'
+        badgeText: 'In Stock'
     },
     {
         id: '2',
@@ -90,7 +90,7 @@ export const topData: ITop[] = [
         title: 'LKR 2,000.00',
         content: "Moose Comfort Fit Crew Neck T-Shirt",
         subtitleSpans: topColor2,
-        badgeText:'In Stock'
+        badgeText: 'In Stock'
     },
     {
         id: '3',
@@ -98,7 +98,7 @@ export const topData: ITop[] = [
         title: 'LKR 3,599.00',
         content: "Ladies Floral designed Over Coat for Tops",
         subtitleSpans: topColor3,
-        badgeText:'Out of Stock'
+        badgeText: 'Out of Stock'
     },
     {
         id: '4',
@@ -106,7 +106,7 @@ export const topData: ITop[] = [
         title: 'LKR 5,000.00',
         content: "Envogue Long Sleeve Crew neck Sweater Top",
         subtitleSpans: topColor4,
-        badgeText:'In Stock'
+        badgeText: 'In Stock'
     },
     {
         id: '5',
@@ -114,7 +114,7 @@ export const topData: ITop[] = [
         title: 'LKR 1,580.00',
         content: "Andriana Lindsay Long Sleeve square neck plain Top",
         subtitleSpans: topColor5,
-        badgeText:'In Stock'
+        badgeText: 'In Stock'
     },
     {
         id: '6',
@@ -122,7 +122,7 @@ export const topData: ITop[] = [
         title: 'LKR 4,599.00',
         content: "SHEIN Sheer Mesh Yoke Long Sleeve Top",
         subtitleSpans: topColor6,
-        badgeText:'In Stock'
+        badgeText: 'In Stock'
     },
     {
         id: '7',
@@ -130,7 +130,7 @@ export const topData: ITop[] = [
         title: 'LKR 2,899.00',
         content: "Andriana short sleeve crew neck Over size t-shirt",
         subtitleSpans: topColor7,
-        badgeText:'Out of Stock'
+        badgeText: 'Out of Stock'
 
     },
     {
@@ -139,7 +139,7 @@ export const topData: ITop[] = [
         title: 'LKR 2,799.00',
         content: "SHEIN short sleeve crew neck t-shirt",
         subtitleSpans: topColor8,
-        badgeText:'In Stock'
+        badgeText: 'In Stock'
     },
     {
         id: '9',
@@ -147,7 +147,7 @@ export const topData: ITop[] = [
         title: 'LKR 999.00',
         content: "Moose short sleeve crew neck t-shirt",
         subtitleSpans: topColor9,
-        badgeText:'Low Stock'
+        badgeText: 'Low Stock'
     },
     {
         id: '10',
@@ -155,7 +155,7 @@ export const topData: ITop[] = [
         title: 'LKR 3,999.00',
         content: "Long Sleeve Chiffon office top - Summer limited edition ",
         subtitleSpans: topColor10,
-        badgeText:'In Stock'
+        badgeText: 'In Stock'
 
     },
     {
@@ -164,7 +164,7 @@ export const topData: ITop[] = [
         title: 'LKR 2,799.00',
         content: "SHEIN long sleeve printed casual top",
         subtitleSpans: topColor11,
-        badgeText:'Low Stock'
+        badgeText: 'Low Stock'
     },
     {
         id: '12',
@@ -172,7 +172,7 @@ export const topData: ITop[] = [
         title: 'LKR 1,699.00',
         content: "Andriana Viscos long sleeve crew neck casual sweater top",
         subtitleSpans: topColor12,
-        badgeText:'Low Stock'
+        badgeText: 'Low Stock'
     }
 
 
