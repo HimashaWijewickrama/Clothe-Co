@@ -2,16 +2,16 @@ import React, { useState, useEffect } from 'react';
 import { ProductCard } from '../components/productCard';
 import { TitleText } from '../components/titleText';
 import { Breadcrumber } from '../components/breadCrumber';
-import { pantsData } from '../data/pantData';
+import { topData } from '../data/topData';
 import SearchBar from '../components/searchBar';
 import { TfiFaceSad } from "react-icons/tfi";
-import { IPant } from '../types/IPant';
+import { ITop } from '../types/ITop';
 
 
 
-export const PantsComponent: React.FC = () => {
+export const TopsComponent: React.FC = () => {
     const [loading, setLoading] = useState(true);
-    const [filteredPants, setFilteredPants] = useState<IPant[]>(pantsData as IPant[]);
+    const [filteredTops, setFilteredTops] = useState<ITop[]>(topData as ITop[]);
     const [noResults, setNoResults] = useState(false);
 
     useEffect(() => {
@@ -28,23 +28,23 @@ export const PantsComponent: React.FC = () => {
         const formattedQuery = searchQuery.trim().toLowerCase();
 
         if (formattedQuery === '') {
-            setFilteredPants(pantsData);
+            setFilteredTops(topData);
         } else {
-            const filtered = pantsData.filter((pant: IPant) =>
-                pant.title.toLowerCase().includes(formattedQuery) ||
-                pant.content.toLowerCase().includes(formattedQuery)
+            const filtered = topData.filter((top: ITop) =>
+                top.title.toLowerCase().includes(formattedQuery) ||
+                top.content.toLowerCase().includes(formattedQuery)
             );
-            setFilteredPants(filtered);
+            setFilteredTops(filtered);
         }
     };
 
     useEffect(() => {
-        if (filteredPants.length === 0) {
+        if (filteredTops.length === 0) {
             setNoResults(true);
         } else {
             setNoResults(false);
         }
-    }, [filteredPants]);
+    }, [filteredTops]);
 
 
 
@@ -52,8 +52,8 @@ export const PantsComponent: React.FC = () => {
     return (
 
         <div className='container' >
-            <TitleText title="pants" />
-            <Breadcrumber title1='Shop Now' title2='Pants' />
+            <TitleText title="tops" />
+            <Breadcrumber title1='Shop Now' title2='Tops' />
             <SearchBar onSearch={handleSearch} />
 
             {loading ? (
@@ -73,14 +73,14 @@ export const PantsComponent: React.FC = () => {
                         {noResults ? (
                             <p className='text-center text-danger fs-5 font-weight-light' style={{ marginTop: '100px' }}>No matching items found  <TfiFaceSad size={20} /></p>
                         ) : (
-                            filteredPants.map((pant) => (
-                                <div key={pant.id} style={{ display: 'inline-block', marginRight: '10px', marginBottom: '300px', marginTop: '50px' }}>
+                            filteredTops.map((top) => (
+                                <div key={top.id} style={{ display: 'inline-block', marginRight: '10px', marginBottom: '300px', marginTop: '50px' }}>
                                     <ProductCard
-                                        imageUrl={pant.imageURL}
-                                        title={pant.title}
-                                        content={pant.content}
-                                        subtitleSpans={pant.subtitleSpans}
-                                        badgeText={pant.badgeText}
+                                        imageUrl={top.imageURL}
+                                        title={top.title}
+                                        content={top.content}
+                                        subtitleSpans={top.subtitleSpans}
+                                        badgeText={top.badgeText}
                                     />
                                 </div>
                             ))

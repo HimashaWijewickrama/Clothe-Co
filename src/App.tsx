@@ -7,9 +7,10 @@ import { FrocksComponent } from './main/frocks'; // Import your Frocks component
 import { Home } from './main/home';
 import { JumpsuitsComponent } from './main/jumpsuits';
 import { SkirtsComponent } from './main/skirts';
-import { TopsComponent } from './main/tops';
+// import { TopsComponent } from './main/tops';
 import { TwoPiecesComponent } from './main/twopieces';
 import { PantsComponent } from './main/pants';
+import { TopsComponent } from './main/topComponent';
 
 function App() {
   return (
