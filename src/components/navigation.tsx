@@ -55,7 +55,7 @@ export const Navigation: React.FC = () => {
                             <NavDropdown.Divider />
                             <NavDropdown.Item as={Link} to="/fashion-accessories">Fashion Accessories</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link as={Link} to="/#about-us">About Us</Nav.Link>
+                        <Nav.Link as={Link} to="/about-us">About Us</Nav.Link>
                         <Nav.Link onClick={scrollToContact}>Contact Us</Nav.Link>
                         <Nav.Link onClick={scrollToReview}>Customer Reviews</Nav.Link>
                     </Nav>
