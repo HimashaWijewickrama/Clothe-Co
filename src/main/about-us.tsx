@@ -18,9 +18,9 @@ export const AboutUs = () => {
             </div>
             <div className="container" style={{ marginBottom: '100px' }}>
                 <div className="card border-dark bg-light mb-3 card-hover" style={{ maxWidth: '50rem' }}>
-                    <div className="card-body text-primary">
+                    <div className="card-body text-dark">
                         <h5 className="card-title">Company Overview</h5>
-                        <p className="card-text" style={{ textAlign: 'justify' }}>Clothe Co. is a vibrant and curated destination for the modern woman,
+                        <p className="card-text small text-muted" style={{ textAlign: 'justify' }}>Clothe Co. is a vibrant and curated destination for the modern woman,
                             offering a wide array of trendy clothing and accessories. Founded with a passion for empowering women
                             through fashion, our store aims to provide a unique shopping experience that celebrates individuality,
                             style, and confidence. With an emphasis on quality, affordability, and the latest fashion trends,
@@ -29,9 +29,9 @@ export const AboutUs = () => {
 
                 </div>
                 <div className="card border-dark bg-light mb-3 card-hover" style={{ maxWidth: '50rem', marginLeft: '500px', marginTop: '50px' }}>
-                    <div className="card-body text-primary">
+                    <div className="card-body text-dark">
                         <h5 className="card-title">Our Mission</h5>
-                        <p className="card-text" style={{ textAlign: 'justify' }}>
+                        <p className="card-text small text-muted" style={{ textAlign: 'justify' }}>
                             At Clothe Co., our mission is to inspire
                             and empower women to embrace their unique style and individuality. We aim to curate a diverse collection
                             of clothing and accessories that not only enhance fashion-forward looks but also instill confidence and
@@ -42,9 +42,9 @@ export const AboutUs = () => {
 
                 </div>
                 <div className="card border-dark bg-light mb-3 card-hover" style={{ maxWidth: '50rem', marginTop: '50px' }}>
-                    <div className="card-body text-primary">
+                    <div className="card-body text-dark">
                         <h5 className="card-title">Our Vision</h5>
-                        <p className="card-text" style={{ textAlign: 'justify' }}>
+                        <p className="card-text small text-muted" style={{ textAlign: 'justify' }}>
                             Our vision is to become a leading fashion hub recognized for its inclusivity, diversity, and innovation.
                             We aspire to continually evolve, staying ahead of fashion trends while remaining rooted in our dedication
                             to providing high-quality, versatile, and affordable clothing and accessories. We aim to build a community
@@ -55,7 +55,7 @@ export const AboutUs = () => {
                 </div>
             </div>
             <SubTitleText subtitle="our stores" />
-            <p className="card-text text-muted fs-6" style={{ textAlign: 'center', marginBottom: '50px' }}>
+            <p className="card-text fs-6 small text-muted" style={{ textAlign: 'center', marginBottom: '50px' }}>
                 Welcome to our network of branches, where convenience meets personalized service
             </p>
             <div className="row row-cols-1 row-cols-md-6 g-4">
