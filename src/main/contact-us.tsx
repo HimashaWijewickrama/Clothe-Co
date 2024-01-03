@@ -1,13 +1,14 @@
 import bannerBackground from '../assets/banner-background.jpg';
 import contactImage from '../assets/quote-frame.png';
 import { IoIosSend } from "react-icons/io";
+import { SubTitleText } from '../components/subtitleText';
 
 export const ContactUs = () => {
     const containerInnerStyle = {
         backgroundImage: `url(${bannerBackground})`,
         backgroundSize: 'cover',
         marginBottom: '50px',
-        height: '550px'
+        height: '600px'
     };
 
     return (
@@ -21,7 +22,9 @@ export const ContactUs = () => {
                     </div>
                     <div className="col-md-6" style={{ marginTop: '50px' }}>
                         <div className="card-body" >
-                            <h5 className="card-title fs-1" style={{ marginBottom: '20px' }}>Share Your Feedback</h5>
+                            <h5 className="card-title fs-1" style={{ marginRight: '200px' }}><SubTitleText subtitle='Share Your feedback'/>
+                                {/* Share Your Feedback */}
+                                </h5>
                             <p className="card-text" style={{ marginTop: '10px' }}>
                                 <small className="text-muted">Please use this form both for suggesting improvements to processes and for leave your feedbacks.</small>
                             </p>

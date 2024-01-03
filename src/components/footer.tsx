@@ -69,7 +69,7 @@ export const Footer = () => {
                                     <span style={{ marginRight: '5px', color: 'muted' }}>
                                         <FaLocationArrow size={15} data-bs-toggle="tooltip" data-bs-placement="top" title="Location" />
                                     </span>
-                                    No: 216/7, Colombo 5
+                                    No:216, Colombo 10
                                 </li>
                             </ul>
                         </div>

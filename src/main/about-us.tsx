@@ -1,102 +1,75 @@
+import { CardGroup } from "../components/cardGroup"
+import { SubTitleText } from "../components/subtitleText";
 import { TitleText } from "../components/titleText"
+import { branchData } from '../data/branchData';
+import '../styles/about.css';
 
 export const AboutUs = () => {
     return (
         <div className="container" id="aboutus">
-            <TitleText title="about us" />
-            <img src="https://images.unsplash.com/photo-1530099486328-e021101a494a?q=80&w=1894&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                className="img-fluid"
-                alt="about-us"
-                style={{ display: 'flex' }}></img><br />
-            <p className="lh-lg" style={{ textAlign: 'justify' }}>
-                Clothee Co., Sri Lanka’s biggest women's fashion chain offers a wide range of clothes and accessories for women.
-                Our showrooms are located in strategic cities across the Island,
-                in addition to our head office which is located in Colombo 5.</p>
-            <p className="lh-lg" style={{ textAlign: 'justify' }}>
-                Clothee Co. has been growing from strength to strength over the last 29 years with a team of 1800 people serving millions
-                of customers every year. The retail chain takes pride in its Sri Lankan roots but offers a world-class retail experience
-                that drives customer loyalty while simultaneously
-                setting new benchmarks in customer-centricity to take the art of retailing to a new level.
+            <TitleText title="about us" /><br />
+            <div className="container" style={{ marginBottom: '100px' }}>
+                <img src="https://images.unsplash.com/photo-1530099486328-e021101a494a?q=80&w=1894&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    className="img-fluid"
+                    alt="about-us"
+                    style={{ display: 'flex' }}></img><br />
+                <div className="common-text" style={{ position: 'absolute', textAlign: 'center', left: '40%', marginTop: '30px' }}>
+                </div>
+            </div>
+            <div className="container" style={{ marginBottom: '100px' }}>
+                <div className="card border-dark bg-light mb-3 card-hover" style={{ maxWidth: '50rem' }}>
+                    <div className="card-body text-primary">
+                        <h5 className="card-title">Company Overview</h5>
+                        <p className="card-text" style={{ textAlign: 'justify' }}>Clothe Co. is a vibrant and curated destination for the modern woman,
+                            offering a wide array of trendy clothing and accessories. Founded with a passion for empowering women
+                            through fashion, our store aims to provide a unique shopping experience that celebrates individuality,
+                            style, and confidence. With an emphasis on quality, affordability, and the latest fashion trends,
+                            we strive to be the go-to destination for every woman looking to express her personality through her wardrobe.</p>
+                    </div>
 
-            </p><br />
+                </div>
+                <div className="card border-dark bg-light mb-3 card-hover" style={{ maxWidth: '50rem', marginLeft: '500px', marginTop: '50px' }}>
+                    <div className="card-body text-primary">
+                        <h5 className="card-title">Our Mission</h5>
+                        <p className="card-text" style={{ textAlign: 'justify' }}>
+                            At Clothe Co., our mission is to inspire
+                            and empower women to embrace their unique style and individuality. We aim to curate a diverse collection
+                            of clothing and accessories that not only enhance fashion-forward looks but also instill confidence and
+                            self-expression in every customer. Through exceptional customer service and a commitment to quality, we
+                            endeavor to create a shopping environment that fosters joy, creativity,
+                            and a sense of belonging for every woman who walks through our doors or visits us online.</p>
+                    </div>
+
+                </div>
+                <div className="card border-dark bg-light mb-3 card-hover" style={{ maxWidth: '50rem', marginTop: '50px' }}>
+                    <div className="card-body text-primary">
+                        <h5 className="card-title">Our Vision</h5>
+                        <p className="card-text" style={{ textAlign: 'justify' }}>
+                            Our vision is to become a leading fashion hub recognized for its inclusivity, diversity, and innovation.
+                            We aspire to continually evolve, staying ahead of fashion trends while remaining rooted in our dedication
+                            to providing high-quality, versatile, and affordable clothing and accessories. We aim to build a community
+                            where women feel empowered, confident, and inspired to explore and embrace their unique sense of style,
+                            creating a lasting impact on the world of fashion and beyond.</p>
+                    </div>
+
+                </div>
+            </div>
+            <SubTitleText subtitle="our stores" />
+            <p className="card-text text-muted fs-6" style={{ textAlign: 'center', marginBottom: '50px' }}>
+                Welcome to our network of branches, where convenience meets personalized service
+            </p>
             <div className="row row-cols-1 row-cols-md-6 g-4">
-                <div className="col">
-                    <div className="card h-45">
-                        <img src="https://plus.unsplash.com/premium_photo-1664202526068-3eba0944f7d1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            className="card-img-top" alt="Malabe" />
-                        <div className="card-footer">
-                            <h5 className="card-title">Colombo 05</h5>
-                            <small className="text-muted">No: 102, Gemunupura 2nd Lane, Colombo 5</small><br/>
-                            <small className="text-muted">+94 767 803 310</small>
-                        </div>
+                {branchData.map(branch => (
+                    <div key={branch.id} className="col">
+                        <CardGroup
+                            imageURL={branch.imageURL}
+                            imageALT={branch.imageALT}
+                            branchName={branch.branchName}
+                            address={branch.address}
+                            contactNumber={branch.contactNumber}
+                        />
                     </div>
-                </div>
-                <div className="col">
-                    <div className="card h-45">
-                        <img src="https://plus.unsplash.com/premium_photo-1664202526047-405824c633e7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-                        className="card-img-top" 
-                        alt="..."  />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                        <div className="card-footer">
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="card h-45">
-                        <img src="https://plus.unsplash.com/premium_photo-1664202526031-36781f6d0465?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8" 
-                        className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div className="card-footer">
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="card h-45">
-                        <img src="https://images.unsplash.com/photo-1555529771-122e5d9f2341?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8" 
-                        className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div className="card-footer">
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="card h-45">
-                        <img src="https://plus.unsplash.com/premium_photo-1664202526535-c01e4b0c42b7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-                        className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div className="card-footer">
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="card h-45">
-                        <img src="https://images.unsplash.com/photo-1531450664978-9be7f46cb497?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-                        className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div className="card-footer">
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
+                ))}
             </div>
         </div>
     )

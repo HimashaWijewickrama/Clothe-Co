@@ -2,7 +2,9 @@ import faqImage from '../assets/faq.png';
 import deliveryImage from '../assets/fast-delivery.png';
 import returnImage from '../assets/online-shopping.png';
 import bannerBackground from '../assets/banner-background.jpg'
+import { SubTitleText } from '../components/subtitleText';
 import '../App.css';
+
 export const Banner = () => {
     const containerInnerStyle = {
         backgroundImage: `url(${bannerBackground})`,
@@ -30,7 +32,7 @@ export const Banner = () => {
     return (
         <div className="container-inner d-flex" style={{ ...containerInnerStyle }}>
             <div className="common-text" style={{position: 'absolute', textAlign: 'center', left: '40%', marginTop: '30px'}}>
-            <h5 className="card-title fs-1" style={{ marginBottom: '20px' }}>Our Services</h5>
+            <SubTitleText subtitle="our services" />
                 {/* <p>Additional common information can go here.</p> */}
             </div>
 
