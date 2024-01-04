@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { ProductCard } from '../components/productCard';
 import { TitleText } from '../components/titleText';
 import { Breadcrumber } from '../components/breadCrumber';
-import { topData } from '../data/topData';
+import { frockData } from '../data/frockData';
 import SearchBar from '../components/searchBar';
 import { TfiFaceSad } from "react-icons/tfi";
-import { ITop } from '../types/ITop';
+import { IFrock } from '../types/IFrock';
 
-export const TopsComponent: React.FC = () => {
+export const FrocksComponent: React.FC = () => {
     const [loading, setLoading] = useState(true);
-    const [filteredTops, setFilteredTops] = useState<ITop[]>(topData as ITop[]);
+    const [filteredFrocks, setFilteredFrocks] = useState<IFrock[]>(frockData as IFrock[]);
     const [noResults, setNoResults] = useState(false);
 
     useEffect(() => {
@@ -26,23 +26,23 @@ export const TopsComponent: React.FC = () => {
         const formattedQuery = searchQuery.trim().toLowerCase();
 
         if (formattedQuery === '') {
-            setFilteredTops(topData);
+            setFilteredFrocks(frockData);
         } else {
-            const filtered = topData.filter((top: ITop) =>
-                top.title.toLowerCase().includes(formattedQuery) ||
-                top.content.toLowerCase().includes(formattedQuery)
+            const filtered = frockData.filter((frock: IFrock) =>
+                frock.title.toLowerCase().includes(formattedQuery) ||
+                frock.content.toLowerCase().includes(formattedQuery)
             );
-            setFilteredTops(filtered);
+            setFilteredFrocks(filtered);
         }
     };
 
     useEffect(() => {
-        if (filteredTops.length === 0) {
+        if (filteredFrocks.length === 0) {
             setNoResults(true);
         } else {
             setNoResults(false);
         }
-    }, [filteredTops]);
+    }, [filteredFrocks]);
 
 
 
@@ -50,8 +50,8 @@ export const TopsComponent: React.FC = () => {
     return (
 
         <div className='container' >
-            <TitleText title="tops" />
-            <Breadcrumber title1='Shop Now' title2='Tops' />
+            <TitleText title="frocks" />
+            <Breadcrumber title1='Shop Now' title2='Frocks' />
             <SearchBar onSearch={handleSearch} />
 
             {loading ? (
@@ -71,14 +71,14 @@ export const TopsComponent: React.FC = () => {
                         {noResults ? (
                             <p className='text-center text-danger fs-5 font-weight-light' style={{ marginTop: '100px' }}>No matching items found  <TfiFaceSad size={20} /></p>
                         ) : (
-                            filteredTops.map((top) => (
-                                <div key={top.id} style={{ display: 'inline-block', marginRight: '10px', marginBottom: '300px', marginTop: '50px' }}>
+                            filteredFrocks.map((frock) => (
+                                <div key={frock.id} style={{ display: 'inline-block', marginRight: '10px', marginBottom: '300px', marginTop: '50px' }}>
                                     <ProductCard
-                                        imageUrl={top.imageURL}
-                                        title={top.title}
-                                        content={top.content}
-                                        subtitleSpans={top.subtitleSpans}
-                                        badgeText={top.badgeText}
+                                        imageUrl={frock.imageURL}
+                                        title={frock.title}
+                                        content={frock.content}
+                                        subtitleSpans={frock.subtitleSpans}
+                                        badgeText={frock.badgeText}
                                     />
                                 </div>
                             ))

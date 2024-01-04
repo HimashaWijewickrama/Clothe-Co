@@ -106,7 +106,7 @@ export const topData: ITop[] = [
         id: '5',
         imageURL: 'https://images.pexels.com/photos/8053691/pexels-photo-8053691.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
         title: 'LKR 1,580.00',
-        content: "Andriana Lindsay Long Sleeve square neck plain Top",
+        content: "Andriana Lindsay Long Sleeve square neck solid Top",
         subtitleSpans: topColor5,
         badgeText: 'In Stock'
     },

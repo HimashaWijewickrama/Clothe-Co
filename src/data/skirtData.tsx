@@ -100,7 +100,7 @@ export const skirtData: ISkirt[] = [
         id: '5',
         imageURL: 'https://images.pexels.com/photos/14913695/pexels-photo-14913695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         title: 'LKR 3,200.00',
-        content: "Andriana Ruffle Overlay Plain Color Maxi Skirt",
+        content: "Andriana Ruffle Overlay solid Color Maxi Skirt",
         subtitleSpans: skirtColor5,
         badgeText: 'In Stock'
     },
