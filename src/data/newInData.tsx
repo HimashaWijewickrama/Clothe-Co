@@ -1,4 +1,4 @@
-import { INewin } from '../types/INewin';
+import { INewin } from '../types/INewIn';
 
 const pantColor1 = [
     { backgroundColor: '#ffffff' },
