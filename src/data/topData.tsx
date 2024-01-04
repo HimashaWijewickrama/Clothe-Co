@@ -1,11 +1,5 @@
-interface ITop {
-    id: string;
-    imageURL: string;
-    title: string;
-    content: string;
-    subtitleSpans: { backgroundColor: string }[];    // Add other properties as needed
-    badgeText?: string;
-}
+import { ITop } from "../types/ITop";
+
 const topColor1 = [
     { backgroundColor: '#ffffff' },
     { backgroundColor: '#D7CBCD' },

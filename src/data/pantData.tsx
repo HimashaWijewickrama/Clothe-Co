@@ -1,11 +1,4 @@
-interface IPant {
-    id: string;
-    imageURL: string;
-    title: string;
-    content: string;
-    subtitleSpans: { backgroundColor: string }[];    // Add other properties as needed
-    badgeText?: string;
-}
+import { IPant } from "../types/IPant";
 const pantColor1 = [
     { backgroundColor: '#ffffff' },
     { backgroundColor: '#000000' },
