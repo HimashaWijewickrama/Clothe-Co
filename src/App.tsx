@@ -3,7 +3,7 @@ import { Advertisement } from './components/advertisement';
 import { Footer } from './components/footer';
 import { Navigation } from './components/navigation';
 import { AccessoriesComponent } from './main/accessories';
-import { FrocksComponent } from './main/frockComponent'; // Import your Frocks component
+import { FrocksComponent } from './main/frocks'; // Import your Frocks component
 import { Home } from './main/home';
 import { JumpsuitsComponent } from './main/jumpsuits';
 import { SkirtsComponent } from './main/skirts';
