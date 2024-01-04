@@ -54,21 +54,6 @@ const frockColor9 = [
 
 
 ];
-const frockColor10 = [
-    { backgroundColor: '#D9ADAD' },
-    { backgroundColor: '#EADDCD' }
-
-];
-const frockColor11 = [
-    { backgroundColor: '#FFFFFF' },
-    { backgroundColor: '#16213E' },
-
-];
-const frockColor12 = [
-    { backgroundColor: '#ffffff' },
-    { backgroundColor: '#1F441E' },
-
-];
 
 export const frockData: IFrock[] = [
     {

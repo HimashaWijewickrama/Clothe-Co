@@ -18,7 +18,7 @@ function App() {
       <Advertisement />
       <Navigation />
       <Routes>
-        <Route path="/" element={<Home />}/>
+        <Route path="/" element={<Home />} />
         <Route path="/frocks" element={<FrocksComponent />} />
         <Route path="/tops" element={<TopsComponent />} />
         <Route path='/pants' element={<PantsComponent />} />
@@ -26,7 +26,7 @@ function App() {
         <Route path='/jumpsuits' element={<JumpsuitsComponent />} />
         <Route path='/two-piece-sets' element={<TwoPiecesComponent />} />
         <Route path='/fashion-accessories' element={<AccessoriesComponent />} />
-        <Route path='/about-us' element={<AboutUs/>}/>
+        <Route path='/about-us' element={<AboutUs />} />
       </Routes>
 
       <Footer />
