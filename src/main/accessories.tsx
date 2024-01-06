@@ -25,31 +25,31 @@ export const AccessoriesComponent = () => {
                             <div style={{ display: 'inline-block', marginRight: '20px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1591561954557-26941169b49e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="First Product"
-                                    content="Description of the second product."
+                                    title="LKR 9,750.00"
+                                    content="vintage women floral designed leather handbag "
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1585488763177-bde7d15fd3cf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8'
 
-                                    title="Second Product"
-                                    content="Description of the second product."
+                                    title="LKR 6,500.00"
+                                    content="SHEIN casual solid color crossbody bag"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1564139615082-01535600057f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3xCWm9vd3pCOFI4MHx8ZW58MHx8fHx8'
 
-                                    title="Third Product"
-                                    content="Description of the second product."
+                                    title="LKR 5,680.00"
+                                    content="SHEIN Hand-held solid color leather bag "
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1585488433867-8eb24f59723c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8Qlpvb3d6QjhSODB8fGVufDB8fHx8fA%3D%3D'
-                                    title="fourth Product"
-                                    content="Description of the second product."
+                                    title="LKR 7,695.00"
+                                    content="Casual leather two tone box crossbody bag"
                                 />
                             </div>
                         </span>
@@ -66,30 +66,30 @@ export const AccessoriesComponent = () => {
                         <span style={{ display: 'block', marginTop: '30px' }}>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
-                                    imageUrl='https://images.unsplash.com/photo-1582211594533-268f4f1edcb9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Fifth Product"
-                                    content="Description of the second product."
+                                    imageUrl='https://plus.unsplash.com/premium_photo-1673823666050-bb56202cc9e4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                                    title="LKR 4,550.00"
+                                    content="Ceylon Rose Garden Island Rose Perfume - 100ml"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1561997835-49889d0e0355?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D'
-                                    title="Sixth Product"
-                                    content="Description of the second product."
+                                    title="LKR 10,500.00"
+                                    content="Calvin Klein Be Unisex perfume - 100ml"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
-                                    imageUrl='https://images.unsplash.com/photo-1588482587611-692b19ee797b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D'
-                                    title="Seventh Product"
-                                    content="Description of the second product."
+                                    imageUrl='https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                                    title="LKR 95,800.00"
+                                    content="CHANEL COCO MADEMOISELLE Wome's perfume - 100ml"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1610113233329-1c73b6f7fe98?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8'
-                                    title="Eighth Product"
-                                    content="Description of the second product."
+                                    title="LKR 84,900.00"
+                                    content="N°5 CHANEL Paris Women's perfume - 1000ml"
                                 />
                             </div>
                         </span>
