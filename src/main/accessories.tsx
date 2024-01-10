@@ -107,29 +107,29 @@ export const AccessoriesComponent = () => {
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1579727027525-352607d8dc49?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 20,890.00"
+                                    content="Light Blue Satin Block Heel with Satin Back Bow"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1578847857503-bed61186a57a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 18,789.00"
+                                    content="Open Toe Front Rear Strap Buckle With Sequin Chunky Heels"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1552419272-b0d8e736ea2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 27,000.00"
+                                    content="Kamello Classical Heel Stiletto Pumps"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1613987876445-fcb353cd8e27?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 10,999.00"
+                                    content="Flock Stripper Fetish Strappy Red Pumps"
                                 />
                             </div>
 
@@ -148,29 +148,29 @@ export const AccessoriesComponent = () => {
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1571290274554-6a2eaa771e5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 4,590.00"
+                                    content="SHEIN Gold Plated Waterproofed Women Ring"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1641814250010-9887d86eedfd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 3,450.00"
+                                    content="GALAXY Thin gold plated Waterproofed ring with stone"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1625792508272-bc6ad2788b14?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 3,250.00"
+                                    content="SHEIN Classic white Peal Choker necklace - Limited Edition"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://plus.unsplash.com/premium_photo-1674255466849-b23fc5f5d3eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 8,599.00"
+                                    content="R&BLM Pearl Chain Necklace - Limited Edition "
                                 />
                             </div>
 
@@ -181,7 +181,7 @@ export const AccessoriesComponent = () => {
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="flush-headingSix">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                            Suncruchies
+                        Scrunchies
                         </button>
                     </h2>
                     <div id="flush-collapseSix" className="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '300px' }}>
@@ -190,29 +190,29 @@ export const AccessoriesComponent = () => {
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1595686220657-ed59f0f14510?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 175.00"
+                                    content="SHEIN Multicolor rainbow satin hair tie scrunchie"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1629019581609-a1626ecfcc19?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 200.00"
+                                    content="ANBELA Satin Ribbon Hair Tie Scrunchie"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1672699323645-75ace776093e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 150.00"
+                                    content="SHEIN Velvet Elastic Hair and hand tie Scrunchie"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1630081757603-a46d414be089?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 125.00"
+                                    content="SAZZEL Silk Hair and Hand Tie Scrunchie"
                                 />
                             </div>
 
@@ -235,29 +235,29 @@ export const AccessoriesComponent = () => {
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1655693488763-bba42128fbc9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGFkaWVzJTIwd2F0Y2hlc3xlbnwwfHwwfHx8MA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 7,899.00"
+                                    content="White Dial Leather Mesh Band Quartz Wrist watch"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1653651461484-5c8ea009b1d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 80,000.00"
+                                    content="TORY BURCH Women's Eleanor Goldtone Watch"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1655693487677-683764e20c08?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 48,000.00"
+                                    content="JewelryWe Round Green Dial Analog Quartz Calendar Watch"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1655693489381-a7ae63269c48?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 56,000.00"
+                                    content="Wrist Watch Steel Band Waterproof Calendar White Watch"
                                 />
                             </div>
 
@@ -277,29 +277,29 @@ export const AccessoriesComponent = () => {
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1585799357162-5ef26c702aba?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 5,550.00"
+                                    content="Off White Beach Hat With brown color Hem"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://plus.unsplash.com/premium_photo-1671149785230-bf9fc44e3829?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 3,650.00"
+                                    content="Sundown bead trim hat with cute bow"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1583703779199-e6ed378df595?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzN8NDUzMTY3OHx8ZW58MHx8fHx8'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 6,450.00"
+                                    content="Summer Big Straw sun Protection Sun Hat with black bow"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1601980265524-04468b355ac3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 4,500.00"
+                                    content="Futurekart Straw Sun Hat with Cute Bow"
                                 />
                             </div>
 
@@ -320,29 +320,29 @@ export const AccessoriesComponent = () => {
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c25lYWtlcnN8ZW58MHx8MHx8fDA%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 85,000.00"
+                                    content="Nike Air Force 1 AF1 W Shadow Pastel Blue Pink Ghost"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1656164753657-8ff832063a71?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 48,550.00"
+                                    content="Nike Air Force 1 Low 07 Retro Classic Low Top Board Shoes"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1591370409347-2fd43b7842de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxODA0MjI1Mnx8ZW58MHx8fHx8'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 20,000.00"
+                                    content="Nike SB Blazer Mid Light British Tan Boots"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1656944227480-98180d2a5155?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 89,000.00"
+                                    content="Nike Air Jordan 1 Low GS - Red / Black 553560-163 Youth"
                                 />
                             </div>
 
@@ -351,30 +351,30 @@ export const AccessoriesComponent = () => {
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1602231379593-b85a472e3c99?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 79,000.00"
+                                    content="Nike Air Jordan 1 Mid Light Smoke Grey Anthracite (GS) 554725-078"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1620138546344-7b2c38516edf?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 69,999.00"
+                                    content="Nike Air Max 90 White University Gold Trainers DC9845 101"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                             
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1610398752800-146f269dfcc8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 37,900.00"
+                                    content="Joliss Women Warm Winter lock Heel Ankle Boots Round"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1462117580841-44df9d9d23fd?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 18,680.00"
+                                    content="LL Bean Women's Leather Lace-up Ankle Duck Boots"
                                 />
                             </div>
 
@@ -392,20 +392,35 @@ export const AccessoriesComponent = () => {
 
 
                         <span style={{ display: 'block', marginTop: '30px' }}>
-                            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                        <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
-                                    imageUrl='https://images.unsplash.com/photo-1601244005535-a48d21d951ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    imageUrl='https://www.mexicaliblues.com/cdn/shop/products/printed_pareo_beach_cover_daylily_daydream.jpg?v=1679940192&width=1400'
+                                    title="LKR 3,860.00"
+                                    content="floral Printed Pareo Beach Cover Scarf"
                                 />
                             </div>
                             <div style={{ display: 'inline-block', marginRight: '10px' }}>
                                 <ProductCard
                                     imageUrl='https://images.unsplash.com/photo-1602095319680-edfc5b44cf5e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                                    title="Nineth Product"
-                                    content="Description of the second product."
+                                    title="LKR 4,799.00"
+                                    content="LAVEN Printed Soft Linen Cotton Scarf"
                                 />
                             </div>
+                            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                                <ProductCard
+                                    imageUrl='https://i.etsystatic.com/5509557/r/il/bf2000/3823986338/il_fullxfull.3823986338_8xyi.jpg'
+                                    title="LKR 5,460.00"
+                                    content="100% Silk floral painted Creamy Vanilla Silk Foulard Scarf"
+                                />
+                            </div>
+                            <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                                <ProductCard
+                                    imageUrl='https://www.mexicaliblues.com/cdn/shop/products/marbleized_lightweight_beach_cover_purple.jpg?v=1678991120&width=900'
+                                    title="LKR 2,460.00"
+                                    content="Marbleized Lightweight Beach Cover Scarf"
+                                />
+                            </div>
+                 
                             
                         </span>
                         
