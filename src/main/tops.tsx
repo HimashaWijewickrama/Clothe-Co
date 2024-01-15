@@ -79,6 +79,14 @@ export const TopsComponent: React.FC = () => {
                                         content={top.content}
                                         subtitleSpans={top.subtitleSpans}
                                         badgeText={top.badgeText}
+                                        header={top.content}
+                                        featureImage={top.imageURL}
+                                        item={top.title}
+                                        body1={top.body1}
+                                        body2={top.body2}
+                                        body3={top.body3}
+                                        body4={top.badgeText}
+
                                     />
                                 </div>
                             ))

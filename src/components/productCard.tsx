@@ -4,8 +4,9 @@ import Badge from 'react-bootstrap/Badge';
 import { IoEye, IoHeart } from "react-icons/io5";
 import AlertDelete from './alertDelete';
 import { ItemCounter } from './itemCounter';
-import ProductModal from './productModal'
-
+import { Modal } from 'react-bootstrap';
+import { Button as MUIButton } from '@mui/material';
+import { TiTick } from "react-icons/ti";
 interface ProductCardProps {
   imageUrl?: string;
   title: string;
@@ -15,9 +16,18 @@ interface ProductCardProps {
     backgroundColor: string;
   }[];
   showFooter?: boolean;
+  header?: string;
+  body1?: string;
+  body2?: string;
+  body3?: string;
+  body4?: string;
+  item?: string;
+  other?: string;
+  footer?: string;
+  featureImage?: string;
 }
 
-export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, content, badgeText, subtitleSpans, showFooter = true }) => {
+export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, content, badgeText, subtitleSpans, header, body1, body2, body3, body4, item, other, footer, featureImage, showFooter = true }) => {
   const [isLiked, setIsLiked] = useState(false);
   const [isView, setIsView] = useState(false);
   const [showFavAlert, setShowFavAlert] = useState(false);
@@ -139,8 +149,66 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
         <AlertDelete title="Added" open={showFavAlert} handleClose={() => handleAlertClose('fav')} />
         // )
       )}
-      <ProductModal header="hello" body="hai" item="Gold Chain" other="sorry" footer="this item is already sold out" isView={isView} handleClose={handleClose} />
+      {/* onHide={handleClose} */}
+      <Modal show={isView} >
+        <Modal.Header>
+          <Modal.Title><p className="fs-5">{header}</p></Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <div className="card mb-3" style={{ maxWidth: '540px', border: '0px' }}>
+            <div className="row g-0">
+              <div className="col-md-6">
+                <img
+                  src={featureImage}
+                  className="img-fluid rounded-start"
+                  alt="..." />
+              </div>
+              <div className="col-md-6">
+                <div className="card-body">
+                  <h5 className="card-title">{item}</h5>
+                  <p className="card-text" style={{ marginBottom: '5px' }}>
+                    <br />
+                    {subtitleSpans &&
+                      subtitleSpans.map((spanStyle, index) => (
+                        <span
+                          key={index}
+                          style={{
+                            border: '1px solid #595C5F',
+                            backgroundColor: spanStyle.backgroundColor,
+                            width: '20px',
+                            height: '20px',
+                            display: 'inline-block',
+                            marginRight: '8px',
+                          }}
+                        ></span>
+                      ))}
+                    <br />
+                    {body1}<br />
+                    {body2}<br />
+                    {body3}<br />
+                    <p className='ts-5' style={{ color: 'green' }}><TiTick size={30} style={{ color: 'green' }} />{body4}</p><br /></p>
+                  <p className="card-text"><small className="text-muted">{other}</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Modal.Body>
+        <Modal.Footer>
 
+          <div className="container">
+            <div className="row">
+              <div className="col-md-9">
+                <MUIButton color="error" variant='contained'>View Full Details</MUIButton>
+
+              </div>
+              <div className="col-md-3">
+                <MUIButton onClick={handleClose} variant="contained" color='success'>Done</MUIButton>
+
+              </div>
+            </div>
+          </div>
+        </Modal.Footer>
+      </Modal>
 
 
     </Card>

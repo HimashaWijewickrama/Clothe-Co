@@ -76,7 +76,7 @@ export const topData: ITop[] = [
         title: 'LKR 3,750.00',
         content: "Envogue Women's Sweater Top - Limited Edition",
         subtitleSpans: topColor1,
-        badgeText: 'In Stock'
+        badgeText: 'In Stock',
     },
     {
         id: '2',
@@ -84,7 +84,10 @@ export const topData: ITop[] = [
         title: 'LKR 2,000.00',
         content: "Moose Comfort Fit Crew Neck T-Shirt",
         subtitleSpans: topColor2,
-        badgeText: 'In Stock'
+        badgeText: 'In Stock',
+        body1: 'Material - Stretch',
+        body2: 'Model Wears - XL',
+        body3: 'Model Height - 5 Feet 8 Inches'
     },
     {
         id: '3',
