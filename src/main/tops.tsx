@@ -47,6 +47,7 @@ export const TopsComponent: React.FC = () => {
 
 
 
+
     return (
 
         <div className='container' >
@@ -72,7 +73,9 @@ export const TopsComponent: React.FC = () => {
                             <p className='text-center text-danger fs-5 font-weight-light' style={{ marginTop: '100px' }}>No matching items found  <TfiFaceSad size={20} /></p>
                         ) : (
                             filteredTops.map((top) => (
+                                
                                 <div key={top.id} style={{ display: 'inline-block', marginRight: '10px', marginBottom: '300px', marginTop: '50px' }}>
+
                                     <ProductCard
                                         imageUrl={top.imageURL}
                                         title={top.title}

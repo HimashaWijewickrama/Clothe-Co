@@ -7,6 +7,8 @@ import { ItemCounter } from './itemCounter';
 import { Modal } from 'react-bootstrap';
 import { Button as MUIButton } from '@mui/material';
 import { TiTick } from "react-icons/ti";
+import { TiWarning } from "react-icons/ti";
+import { IoClose } from "react-icons/io5";
 interface ProductCardProps {
   imageUrl?: string;
   title: string;
@@ -32,7 +34,6 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
   const [isView, setIsView] = useState(false);
   const [showFavAlert, setShowFavAlert] = useState(false);
   const [badgeColor, setBadgeColor] = useState<'success' | 'danger' | 'primary' | 'warning' | 'secondary' | 'info'>('success'); // Define badge colors
-
   // Function to change badge color based on condition
   const changeBadgeColor = () => {
     if (badgeText === 'New') {
@@ -47,6 +48,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
       setBadgeColor('primary')
     }
   };
+
 
   const handleAlertClose = (type: string) => {
     if (type === 'fav') {
@@ -186,7 +188,15 @@ export const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, conte
                     {body1}<br />
                     {body2}<br />
                     {body3}<br />
-                    <p className='ts-5' style={{ color: 'green' }}><TiTick size={30} style={{ color: 'green' }} />{body4}</p><br /></p>
+                    <p className='ts-5' style={{ color: body4 === 'In Stock' ? 'green' : 'Out of Stock' ? 'red': 'Low Stock' ? 'yellow' : 'black' }}>
+                      <TiTick size={30} style={{ color: body4 === 'In Stock' ? 'green' : 'transparent' }} />
+                      <IoClose size={30} style={{ color: body4 === 'Out of Stock' ? 'red' : 'transparent' }}/>
+                      <TiWarning size={30} style={{ color: body4 === 'Low Stock' ? 'yellow' : 'transparent' }}/>
+                      {body4}
+                    </p>
+
+
+                    <br /></p>
                   <p className="card-text"><small className="text-muted">{other}</small></p>
                 </div>
               </div>

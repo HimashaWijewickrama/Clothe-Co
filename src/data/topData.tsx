@@ -77,6 +77,9 @@ export const topData: ITop[] = [
         content: "Envogue Women's Sweater Top - Limited Edition",
         subtitleSpans: topColor1,
         badgeText: 'In Stock',
+        body1: 'Material    : Cotton',
+        body2: 'Model Wears : L',
+        body3: 'Model Height: 5 Ft 4 Inches'
     },
     {
         id: '2',
@@ -85,9 +88,9 @@ export const topData: ITop[] = [
         content: "Moose Comfort Fit Crew Neck T-Shirt",
         subtitleSpans: topColor2,
         badgeText: 'In Stock',
-        body1: 'Material - Stretch',
-        body2: 'Model Wears - XL',
-        body3: 'Model Height - 5 Feet 8 Inches'
+        body1: 'Material    : Stretch',
+        body2: 'Model Wears : XL',
+        body3: 'Model Height: 5 Ft 8 Inches'
     },
     {
         id: '3',
@@ -95,7 +98,10 @@ export const topData: ITop[] = [
         title: 'LKR 3,599.00',
         content: "Ladies Floral designed Over Coat for Tops",
         subtitleSpans: topColor3,
-        badgeText: 'Out of Stock'
+        badgeText: 'Out of Stock',
+        body1: 'Material    : Cotton',
+        body2: 'Model Wears : L',
+        body3: 'Model Height: 5 Ft 5 Inches'
     },
     {
         id: '4',
@@ -103,7 +109,10 @@ export const topData: ITop[] = [
         title: 'LKR 5,000.00',
         content: "Envogue Long Sleeve Crew neck Sweater Top",
         subtitleSpans: topColor4,
-        badgeText: 'In Stock'
+        badgeText: 'In Stock',
+        body1: 'Material    : Cotton',
+        body2: 'Model Wears : XL',
+        body3: 'Model Height: 5 Ft 8 Inches'
     },
     {
         id: '5',
@@ -111,7 +120,10 @@ export const topData: ITop[] = [
         title: 'LKR 1,580.00',
         content: "Andriana Lindsay Long Sleeve square neck solid Top",
         subtitleSpans: topColor5,
-        badgeText: 'In Stock'
+        badgeText: 'In Stock',
+        body1: 'Material    : Cotton',
+        body2: 'Model Wears : XL',
+        body3: 'Model Height: 5 Ft 1 Inches'
     },
     {
         id: '6',
@@ -119,7 +131,10 @@ export const topData: ITop[] = [
         title: 'LKR 4,599.00',
         content: "SHEIN Sheer Mesh Yoke Long Sleeve Top",
         subtitleSpans: topColor6,
-        badgeText: 'In Stock'
+        badgeText: 'In Stock',
+        body1: 'Material    : Lace',
+        body2: 'Model Wears : M',
+        body3: 'Model Height: 5 Ft 2 Inches'
     },
     {
         id: '7',
@@ -127,7 +142,10 @@ export const topData: ITop[] = [
         title: 'LKR 2,899.00',
         content: "Andriana short sleeve crew neck Over size t-shirt",
         subtitleSpans: topColor7,
-        badgeText: 'Out of Stock'
+        badgeText: 'Out of Stock',
+        body1: 'Material    : Cotton',
+        body2: 'Model Wears : XL',
+        body3: 'Model Height: 5 Ft 8 Inches'
 
     },
     {
@@ -136,7 +154,10 @@ export const topData: ITop[] = [
         title: 'LKR 2,799.00',
         content: "SHEIN short sleeve crew neck t-shirt",
         subtitleSpans: topColor8,
-        badgeText: 'In Stock'
+        badgeText: 'In Stock',
+        body1: 'Material    : Cotton',
+        body2: 'Model Wears : XL',
+        body3: 'Model Height: 5 Ft 8 Inches'
     },
     {
         id: '9',
@@ -144,7 +165,10 @@ export const topData: ITop[] = [
         title: 'LKR 999.00',
         content: "Moose short sleeve crew neck t-shirt",
         subtitleSpans: topColor9,
-        badgeText: 'Low Stock'
+        badgeText: 'Low Stock',
+        body1: 'Material    : Cotton',
+        body2: 'Model Wears : S',
+        body3: 'Model Height: 5 Ft 5 Inches'
     },
     {
         id: '10',
@@ -152,7 +176,10 @@ export const topData: ITop[] = [
         title: 'LKR 3,999.00',
         content: "Long Sleeve Chiffon office top - Summer limited edition ",
         subtitleSpans: topColor10,
-        badgeText: 'In Stock'
+        badgeText: 'In Stock',
+        body1: 'Material    : Silk',
+        body2: 'Model Wears : L',
+        body3: 'Model Height: 5 Ft 5 Inches'
 
     },
     {
@@ -161,7 +188,10 @@ export const topData: ITop[] = [
         title: 'LKR 2,799.00',
         content: "SHEIN long sleeve printed casual top",
         subtitleSpans: topColor11,
-        badgeText: 'Low Stock'
+        badgeText: 'Low Stock',
+        body1: 'Material    : Crepe',
+        body2: 'Model Wears : M',
+        body3: 'Model Height: 5 Ft 1 Inches'
     },
     {
         id: '12',
@@ -169,7 +199,10 @@ export const topData: ITop[] = [
         title: 'LKR 1,699.00',
         content: "Andriana Viscos long sleeve crew neck casual sweater top",
         subtitleSpans: topColor12,
-        badgeText: 'Low Stock'
+        badgeText: 'Low Stock',
+        body1: 'Material    : Cotton',
+        body2: 'Model Wears : XXL',
+        body3: 'Model Height: 5 Ft 3 Inches'
     }
 
 
