@@ -79,7 +79,7 @@ export const topData: ITop[] = [
         badgeText: 'In Stock',
         body1: 'Material    : Cotton',
         body2: 'Model Wears : L',
-        body3: 'Model Height: 5 Ft 4 Inches'
+        body3: 'Brand       : Envogue'
     },
     {
         id: '2',
@@ -90,7 +90,7 @@ export const topData: ITop[] = [
         badgeText: 'In Stock',
         body1: 'Material    : Stretch',
         body2: 'Model Wears : XL',
-        body3: 'Model Height: 5 Ft 8 Inches'
+        body3: 'Brand       : Moose'
     },
     {
         id: '3',
@@ -101,7 +101,7 @@ export const topData: ITop[] = [
         badgeText: 'Out of Stock',
         body1: 'Material    : Cotton',
         body2: 'Model Wears : L',
-        body3: 'Model Height: 5 Ft 5 Inches'
+        body3: 'Brand       : Modano'
     },
     {
         id: '4',
@@ -112,7 +112,7 @@ export const topData: ITop[] = [
         badgeText: 'In Stock',
         body1: 'Material    : Cotton',
         body2: 'Model Wears : XL',
-        body3: 'Model Height: 5 Ft 8 Inches'
+        body3: 'Brand       : Envogue'
     },
     {
         id: '5',
@@ -123,7 +123,7 @@ export const topData: ITop[] = [
         badgeText: 'In Stock',
         body1: 'Material    : Cotton',
         body2: 'Model Wears : XL',
-        body3: 'Model Height: 5 Ft 1 Inches'
+        body3: 'Brand       : Andriana'
     },
     {
         id: '6',
@@ -134,7 +134,7 @@ export const topData: ITop[] = [
         badgeText: 'In Stock',
         body1: 'Material    : Lace',
         body2: 'Model Wears : M',
-        body3: 'Model Height: 5 Ft 2 Inches'
+        body3: 'Brand       : SHEIN'
     },
     {
         id: '7',
@@ -145,7 +145,7 @@ export const topData: ITop[] = [
         badgeText: 'Out of Stock',
         body1: 'Material    : Cotton',
         body2: 'Model Wears : XL',
-        body3: 'Model Height: 5 Ft 8 Inches'
+        body3: 'Brand       : Andriana'
 
     },
     {
@@ -157,7 +157,7 @@ export const topData: ITop[] = [
         badgeText: 'In Stock',
         body1: 'Material    : Cotton',
         body2: 'Model Wears : XL',
-        body3: 'Model Height: 5 Ft 8 Inches'
+        body3: 'Brand       : SHEIN'
     },
     {
         id: '9',
@@ -168,7 +168,7 @@ export const topData: ITop[] = [
         badgeText: 'Low Stock',
         body1: 'Material    : Cotton',
         body2: 'Model Wears : S',
-        body3: 'Model Height: 5 Ft 5 Inches'
+        body3: 'Brand       : Moose'
     },
     {
         id: '10',
@@ -179,7 +179,7 @@ export const topData: ITop[] = [
         badgeText: 'In Stock',
         body1: 'Material    : Silk',
         body2: 'Model Wears : L',
-        body3: 'Model Height: 5 Ft 5 Inches'
+        body3: 'Brand       : Modano'
 
     },
     {
@@ -191,7 +191,7 @@ export const topData: ITop[] = [
         badgeText: 'Low Stock',
         body1: 'Material    : Crepe',
         body2: 'Model Wears : M',
-        body3: 'Model Height: 5 Ft 1 Inches'
+        body3: 'Brand       : SHEIN'
     },
     {
         id: '12',
@@ -202,7 +202,7 @@ export const topData: ITop[] = [
         badgeText: 'Low Stock',
         body1: 'Material    : Cotton',
         body2: 'Model Wears : XXL',
-        body3: 'Model Height: 5 Ft 3 Inches'
+        body3: 'Brand       : Andriana'
     }
 
 
