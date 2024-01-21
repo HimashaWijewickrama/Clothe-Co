@@ -67,7 +67,7 @@ export const Navigation: React.FC = () => {
                             <Nav.Link href="#action1"><FaShoppingCart size={18} data-bs-toggle="tooltip" data-bs-placement="top" title="Cart" /></Nav.Link>
                             <Nav.Link href='#action2'><TbJewishStarFilled size={18} data-bs-toggle="tooltip" data-bs-placement="top" title="Favourites" /></Nav.Link>
                             <Nav.Link href='#action3'><TbTruckDelivery size={18} data-bs-toggle="tooltip" data-bs-placement="top" title="Track Order" /></Nav.Link>
-                            <Nav.Link href='#action4'><BiSolidUserCircle size={18} data-bs-toggle="tooltip" data-bs-placement="top" title="Login" /></Nav.Link>
+                            <Nav.Link as={Link} to="/log-in"><BiSolidUserCircle size={18} data-bs-toggle="tooltip" data-bs-placement="top" title="Login" /></Nav.Link>
 
 
                         </Nav>

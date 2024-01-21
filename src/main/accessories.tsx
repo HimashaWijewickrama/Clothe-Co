@@ -16,7 +16,7 @@ export const AccessoriesComponent = () => {
                             Women's Tote Bags
                         </button>
                     </h2>
-                    <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '200px' }}>
+                    <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample" style={{ marginBottom: '300px' }}>
                         <div className="accordion-body">
                             {/* Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body. */}
                         </div>

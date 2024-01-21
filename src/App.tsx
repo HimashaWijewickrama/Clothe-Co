@@ -11,6 +11,7 @@ import { TwoPiecesComponent } from './main/twopieces';
 import { PantsComponent } from './main/pants';
 import { TopsComponent } from './main/tops';
 import { AboutUs } from './main/about-us';
+import { LogIn } from './components/logIn';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/jumpsuits' element={<JumpSuitsComponent />} />
         <Route path='/two-piece-sets' element={<TwoPiecesComponent />} />
         <Route path='/fashion-accessories' element={<AccessoriesComponent />} />
+        <Route path="/log-in" element={<LogIn />} />
         <Route path='/about-us' element={<AboutUs />} />
       </Routes>
 
