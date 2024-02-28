@@ -1,20 +1,20 @@
+import { Formik } from "formik";
 import React, { useState } from "react";
+import { Modal } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Navbar from "react-bootstrap/Navbar";
 import {
-  BiSolidUserCircle,
   BiSolidLogIn,
   BiSolidLogOutCircle,
+  BiSolidUserCircle,
 } from "react-icons/bi";
 import { FaShoppingCart } from "react-icons/fa";
 import { TbJewishStarFilled, TbTruckDelivery } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import LogoNav from "../assets/logo-nav.png";
-import { Modal } from "react-bootstrap";
-import { Formik } from "formik";
 
 type AuthUser = {
   firstName: string;
