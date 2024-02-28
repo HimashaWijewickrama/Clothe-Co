@@ -27,7 +27,7 @@ function App() {
         <Route path='/jumpsuits' element={<JumpSuitsComponent />} />
         <Route path='/two-piece-sets' element={<TwoPiecesComponent />} />
         <Route path='/fashion-accessories' element={<AccessoriesComponent />} />
-        <Route path="/log-in" element={<LogIn />} />
+        {/* <Route path="/log-in" element={<LogIn />} /> */}
         <Route path='/about-us' element={<AboutUs />} />
       </Routes>
 
