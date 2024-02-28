@@ -1,17 +1,17 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Advertisement } from './components/advertisement';
-import { Footer } from './components/footer';
-import { Navigation } from './components/navigation';
-import { AccessoriesComponent } from './main/accessories';
-import { FrocksComponent } from './main/frocks'; // Import your Frocks component
-import { Home } from './main/home';
-import { JumpSuitsComponent } from './main/jumpsuits';
-import { SkirtsComponent } from './main/skirts';
-import { TwoPiecesComponent } from './main/twopieces';
-import { PantsComponent } from './main/pants';
-import { TopsComponent } from './main/tops';
-import { AboutUs } from './main/about-us';
-import { LogIn } from './components/logIn';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Advertisement } from "./components/advertisement";
+import { Footer } from "./components/footer";
+import { Navigation } from "./components/navigation";
+import { AccessoriesComponent } from "./main/accessories";
+import { FrocksComponent } from "./main/frocks"; // Import your Frocks component
+import { Home } from "./main/home";
+import { JumpSuitsComponent } from "./main/jumpsuits";
+import { SkirtsComponent } from "./main/skirts";
+import { TwoPiecesComponent } from "./main/twopieces";
+import { PantsComponent } from "./main/pants";
+import { TopsComponent } from "./main/tops";
+import { AboutUs } from "./main/about-us";
+import { LogIn } from "./components/logIn";
 
 function App() {
   return (
@@ -22,18 +22,17 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/frocks" element={<FrocksComponent />} />
         <Route path="/tops" element={<TopsComponent />} />
-        <Route path='/pants' element={<PantsComponent />} />
-        <Route path='/skirts' element={<SkirtsComponent />} />
-        <Route path='/jumpsuits' element={<JumpSuitsComponent />} />
-        <Route path='/two-piece-sets' element={<TwoPiecesComponent />} />
-        <Route path='/fashion-accessories' element={<AccessoriesComponent />} />
+        <Route path="/pants" element={<PantsComponent />} />
+        <Route path="/skirts" element={<SkirtsComponent />} />
+        <Route path="/jumpsuits" element={<JumpSuitsComponent />} />
+        <Route path="/two-piece-sets" element={<TwoPiecesComponent />} />
+        <Route path="/fashion-accessories" element={<AccessoriesComponent />} />
         {/* <Route path="/log-in" element={<LogIn />} /> */}
-        <Route path='/about-us' element={<AboutUs />} />
+        <Route path="/about-us" element={<AboutUs />} />
       </Routes>
 
       <Footer />
     </BrowserRouter>
-
   );
 }
 
