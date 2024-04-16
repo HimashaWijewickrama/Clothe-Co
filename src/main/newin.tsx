@@ -4,7 +4,7 @@ import { TitleText } from '../components/titleText';
 import { Breadcrumber } from '../components/breadCrumber';
 import SearchBar from '../components/searchBar';
 import { TfiFaceSad } from "react-icons/tfi";
-import { INewin } from '../types/INewIn';
+import { INewin } from '../types/INewin';
 import { newinData } from '../data/newInData';
 
 
