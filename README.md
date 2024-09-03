@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+# Clothe Co. Clothing Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Prerequisites
+
+- Install the Node.js : version 18.16.1
+- Node Package Manager (npm) : version 9.5.1 (This is comming bundled with node)
+- Visual Studio Code Editor (VSCode Editor)
+
+## Used Packages and Dependencies
+
+- react bootstrap : latest version 2.10.2
+- react icons : latest version 5.2.1
+- sweetalert2 : latest verion 11.11.1
+- react loader spinner : latest version 6.1.6
+- react scroll : latest version 1.9.0
+
+## Other Resources
+
+Used https://mockapi.io/ to create the sample APIs.\
+All images from https://unsplash.com/
 
 ## Available Scripts
 
@@ -14,33 +31,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Compiles the project for production.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run deploy`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Deploy the project to the hosting environment. (Here, GitHub pages)
 
-### `npm run eject`
+## Previews
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![screencapture-localhost-3000-2024-09-03-12_39_38](https://github.com/user-attachments/assets/03f0305d-f8bd-40c3-8c47-47adb5a1316a)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![screencapture-localhost-3000-about-us-2024-09-03-12_40_17](https://github.com/user-attachments/assets/0db489fc-8a9e-4d24-9917-137160f4a056)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![screencapture-localhost-3000-tops-2024-09-03-12_41_04](https://github.com/user-attachments/assets/5e77817c-89a0-46b0-8bdb-eafdcffcbf54)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
