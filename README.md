@@ -13,6 +13,7 @@
 - sweetalert2 : latest verion 11.11.1
 - react loader spinner : latest version 6.1.6
 - react scroll : latest version 1.9.0
+- TypeScript
 
 ## Other Resources
 
