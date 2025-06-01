@@ -1,6 +1,6 @@
 # Clothe Co. Clothing Store
 
-### 🛠️ Built With
+## 🛠️ Built With
 
 - TypeScript
 - React
