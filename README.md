@@ -1,5 +1,10 @@
 # Clothe Co. Clothing Store
 
+### 🛠️ Built With
+
+- TypeScript
+- React
+  
 ## Prerequisites
 
 - Install the Node.js : version 18.16.1
