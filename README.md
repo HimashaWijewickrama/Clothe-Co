@@ -4,6 +4,7 @@
 
 - TypeScript
 - React
+- Bootstrap
   
 ## Prerequisites
 
